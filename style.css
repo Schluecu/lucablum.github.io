@@ -1,7 +1,7 @@
 @font-face {
     font-family: "ABC Otto Variable Edu Regular";
     font-weight: 300;
-    src: url("/font/ABCOttoItalicVariable.ttf");
+    src: url("/font/ABCOttoVariable.ttf");
 }
 
 @font-face {
@@ -17,7 +17,7 @@
 }
 
 body {
-    user-select: none;
+    -webkit-user-select: none;
     font-family: "ABC Otto Variable Edu Light";
 }
 
@@ -41,7 +41,6 @@ a {
 
 r {
     font-family: "ABC Otto Variable Edu Regular";
-    font-style: normal;
 }
 
 i {
