@@ -39,6 +39,10 @@ a {
     font-family: "ABC Otto Variable Edu Medium Italic";
 }
 
+r {
+    font-family: "ABC Otto Variable Edu Regular";
+}
+
 i {
     font-family: "ABC Otto Variable Edu Light Italic";
     letter-spacing: .05vmax;
