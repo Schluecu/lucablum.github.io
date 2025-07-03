@@ -18,10 +18,24 @@
         <p><a target="_self " href="/html/kontakt.html">kontakt</a></p>
     </nav>
     <main style="width: 50vmax;padding-top:2vmax;padding-bottom:5vw;float:left;">
-      <path id="circularPath" d="M (CENTER_X - RADIUS),CENTER_Y a RADIUS,RADIUS 0 1,1 (2 * RADIUS),0 RADIUS,RADIUS 0 1,1 (-2 * RADIUS),0"/>
-      <textPath href="#circularPath" textLength={Math.floor(Math.PI * 2 * RADIUS)}>
-          work in progress... work in progress... work in progress... work in progress... work in progress... 
-      </textPath>
+      <svg
+  viewBox="0 0 100 100"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    id="circlePath"
+    d="
+      M 10, 50
+      a 40,40 0 1,1 80,0
+      40,40 0 1,1 -80,0
+    "
+  />
+  <text>
+    <textPath href="#circlePath" style="font-family:ABC-Otto-Light-Italic;font-size:1vmax">
+      work in progress... work in progress... work in progress... work in progress... work in progress... 
+    </textPath>
+  </text>
+</svg>
     </main>
     <puffer style="width: 25vmax;float:right">
 
