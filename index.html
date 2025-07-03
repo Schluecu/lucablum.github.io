@@ -18,15 +18,10 @@
         <p><a target="_self " href="/html/kontakt.html">kontakt</a></p>
     </nav>
     <main style="width: 50vmax;padding-top:2vmax;padding-bottom:5vw;float:left;">
-        <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 15vw 15vw" style="padding:2vmax;"xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <circle cx=100% cy=100% r=100% id="circle" style="fill:none" class="st0"/>
-    <text width=15vw>
-        <textpath xlink:href="#circle" style="font-family:ABC Otto Variable Edu Light Italic; letter-spacing: .07vmax; font-size:1vmax;">
-            work in progress... work in progress... work in progress... work in progress... work in progress... work in progress...
-        </textpath>
-    </text>
-</svg>
+      <path id="circularPath" d="M (CENTER_X - RADIUS),CENTER_Y a RADIUS,RADIUS 0 1,1 (2 * RADIUS),0 RADIUS,RADIUS 0 1,1 (-2 * RADIUS),0"/>
+      <textPath href="#circularPath" textLength={Math.floor(Math.PI * 2 * RADIUS)}>
+          work in progress... work in progress... work in progress... work in progress... work in progress... 
+      </textPath>
     </main>
     <puffer style="width: 25vmax;float:right">
 
