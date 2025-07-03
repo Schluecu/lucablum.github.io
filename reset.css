@@ -34,8 +34,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-button {
-	padding: 0;
+#text-button {
+padding: 0;
 border: none;
 background: none;
 }
