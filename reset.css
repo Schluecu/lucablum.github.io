@@ -34,11 +34,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-#text-button {
-padding: 0;
-border: none;
-background: none;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -77,4 +73,10 @@ body {
 	font-size: 0; 
 	height: 0;
 	visibility: hidden;
+}
+
+#text-button {
+padding: 0;
+border: none;
+background: none;
 }
