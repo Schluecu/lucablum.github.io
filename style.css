@@ -43,6 +43,10 @@ r {
     font-family: "ABC Otto Variable Edu Regular";
 }
 
+r:hover {
+    cursor:pointer;
+}
+
 i {
     font-family: "ABC Otto Variable Edu Light Italic";
     letter-spacing: .05vmax;
