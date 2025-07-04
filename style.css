@@ -58,6 +58,16 @@ q {
     letter-spacing: .07vmax;
 }
 
+@media only screen and (max-width: 800px) {
+    .bignav {diplay:none;}
+    .topnav {display:block;}
+    
+}
+@media only screen and (min-width: 801px) {
+    .bignav {diplay;block;}
+    .topnav {display:none;}
+}
+
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
