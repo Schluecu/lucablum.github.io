@@ -10,15 +10,51 @@
     <title>Luca Blum</title>
 </head>
 
-<body style="overflow:hidden; padding-left: 2vmax; padding-top: 2vmax">
-    <nav style="width:25vmax;float: left;">
+<body style="max-height:fit-content; overflow:scroll; padding-top: 2vmax; padding-left: 2vmax;">
+    <nav class="bignav" style="float:left; width:25vmax;">
         <p><a target="_self "><q href="/index.html">luca blum</q></a></p><br>
         <p><a target="_self " href="/html/info.html">über mich</a></p><br>
         <p><a target="_self " href="/html/arbeiten.html">arbeiten</a></p><br>
         <p><a target="_self " href="/html/kontakt.html">kontakt</a></p>
     </nav>
-    <main style="width: 50vmax;float:left;">
-
+<script>function myFunction() {
+  var x = document.getElementById("myLinks");
+  var y = document.getElementById("yes");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    y.style.padding-left="5vw";
+  } else {
+    x.style.display = "block";
+    x.style.float = "left";
+    y.style.padding-left="30vw";
+  }
+}</script>
+<div class="topnav" style="width:5vw;height:5vw;float:left;">
+  <a class="active"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks" style="width:20vw;padding-top:5vw;padding-left:5vw;">
+    <p><a target="_self "><q href="/index.html">luca blum</q></a></p><br>
+    <p><a target="_self " href="/html/info.html">über mich</a></p><br>
+    <p><a target="_self " href="/html/arbeiten.html">arbeiten</a></p><br>
+    <p><a target="_self " href="/html/kontakt.html">kontakt</a></p>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i style="font-size:5vw;">●</i>
+  </a>
+</div>
+    <main id="yes" style="width:75vmin;padding-top:2vmax;padding-bottom:5vw;display:inline-blcok;">
+            <svg width:100% height:100% viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path style="fill:none" id="circlePath" d="
+          M 10, 50
+          a 40,40 0 1,1 80,0
+          40,40 0 1,1 -80,0"/>
+  <text>
+    <textPath style="fill:black; font-family:ABC Otto Variable Edu Light Italic; font-size:1.7vmin; letter-spacing:.025vmin;" href="#circlePath">
+      work in progress... work in progress... work in progress... work in progress... work in progress... work in progress... work in progress... work in progress... work in progress... work in progress... work in progress... 
+    </textPath>
+  </text>
+</svg>
     </main>
     <puffer style="width: 25vmax;float:right">
 
