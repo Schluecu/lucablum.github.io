@@ -23,9 +23,9 @@ body {
 
 nav {
     -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: calc(3.5vmax / 50);
-    font-size: clamp(18pt, 3.5vmax, 3.5vw);
-    line-height: 0.85;
+    -webkit-text-stroke-width: calc(3.5vmax/50);
+    font-size: clamp(18pt, 3.5vmax, 3.5vw);;
+    line-height: .85;
     color: transparent;
 }
 
@@ -44,20 +44,68 @@ r {
 }
 
 r:hover {
-    cursor: pointer;
+    cursor:pointer;
 }
 
 i {
     font-family: "ABC Otto Variable Edu Light Italic";
-    letter-spacing: 0.05vmax;
+    letter-spacing: .05vmax;
 }
 
 q {
     -webkit-text-stroke-width: 0;
     color: black;
-    letter-spacing: 0.07vmax;
+    letter-spacing: .07vmax;
 }
 
 @media only screen and (max-width: 800px) {
-    .bignav
-
+    .bignav {diplay:none;}
+    .topnav {display:block;}
+    
+}
+@media only screen and (min-width: 801px) {
+    .bignav {diplay;block;}
+    .topnav {display:none;}
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
