@@ -24,7 +24,7 @@ body {
 nav {
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: calc(3.5vmax/50);
-    font-size: clamp(18pt, 3.5vmax, 3.5vw);;
+    font-size: clamp(18pt, 3.5vmax, 3.5vw);
     line-height: .85;
     color: transparent;
 }
