@@ -59,13 +59,13 @@ q {
 }
 
 @media only screen and (max-width: 800px) {
-    .bignav {diplay:none;}
-    .topnav {display:block;}
+    .bignav {visibility:hidden;}
+    .topnav {visibility:visible;}
     
 }
 @media only screen and (min-width: 801px) {
-    .bignav {diplay;block;}
-    .topnav {display:none;}
+    .bignav {visibility;visible;}
+    .topnav {visibility:hidden;}
 }
 
 /* Style the navigation menu */
