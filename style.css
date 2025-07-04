@@ -75,9 +75,6 @@ q {
 
 /* Style navigation menu links */
 .topnav a {
-  color: transparent;
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: calc(3.5vmax/50);
   font-size: clamp(18pt, 3.5vmax, 3.5vw);
   padding: 1vw;
   float: left;
