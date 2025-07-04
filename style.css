@@ -59,19 +59,13 @@ q {
 }
 
 @media only screen and (max-width: 800px) {
-    .bignav {visibility:hidden;}
-    .topnav {visibility:visible;}
+    .bignav {display:none;}
+    .topnav {display:block;float:left;visibility:visible;}
     
 }
 @media only screen and (min-width: 801px) {
-    .bignav {visibility:visible;}
-    .topnav {visibility:hidden;}
-}
-
-/* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  position: relative;
+    .bignav {display:block;float:left;visibility:visible;}
+    .topnav {display:none;}
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
