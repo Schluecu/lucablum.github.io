@@ -60,11 +60,11 @@ q {
 
 @media only screen and (max-width: 800px) {
     .bignav {display:none;}
-    .topnav {display:block;float:left;visibility:visible;}
+    .topnav {display:block;float:left;}
     
 }
 @media only screen and (min-width: 801px) {
-    .bignav {display:block;float:left;visibility:visible;}
+    .bignav {display:block;float:left;}
     .topnav {display:none;}
 }
 
