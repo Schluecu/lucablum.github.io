@@ -85,7 +85,7 @@ q {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  display: block;
+  float: left;
   position: absolute;
   left: .5vw;
   top: .5vw;
