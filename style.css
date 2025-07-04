@@ -23,9 +23,9 @@ body {
 
 nav {
     -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: calc(3.5vmax/50);
+    -webkit-text-stroke-width: calc(3.5vmax / 50);
     font-size: clamp(18pt, 3.5vmax, 3.5vw);
-    line-height: .85;
+    line-height: 0.85;
     color: transparent;
 }
 
@@ -44,56 +44,20 @@ r {
 }
 
 r:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 i {
     font-family: "ABC Otto Variable Edu Light Italic";
-    letter-spacing: .05vmax;
+    letter-spacing: 0.05vmax;
 }
 
 q {
     -webkit-text-stroke-width: 0;
     color: black;
-    letter-spacing: .07vmax;
+    letter-spacing: 0.07vmax;
 }
 
 @media only screen and (max-width: 800px) {
-    .bignav {display:none;}
-    .topnav {display:block;float:left;visibility:visible;}
-    
-}
-@media only screen and (min-width: 801px) {
-    .bignav {display:block;float:left;visibility:visible;}
-    .topnav {display:none;}
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
-
-/* Style navigation menu links */
-.topnav a {
-  color: transparent;
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: calc(3.5vmax/50);
-  font-size: clamp(18pt, 3.5vmax, 3.5vw);
-  padding: 1vw;
-  float: left;
-}
-
-/* Style the hamburger menu */
-.topnav a.icon {
-  float: left;
-  position: absolute;
-  left: .5vw;
-  top: .5vw;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  color: black;
-    -webkit-text-stroke-width: 0;
-    font-size: clamp(18pt, 3.5vmax, 3.5vw);
-}
+    .bignav
+
