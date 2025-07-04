@@ -11,13 +11,39 @@
 </head>
 
 <body style="max-height:fit-content; overflow:scroll; padding-left: 2vmax; padding-top: 2vmax">
-    <nav style="width:25vmax;float: left;">
+    <nav class="bignav" style="float:left; width:25vmax;">
         <p><a target="_self " href="/index.html">luca blum</a></p><br>
         <p><a target="_self " href="/html/info.html">über mich</a></p><br>
         <p><a target="_self " href="/html/arbeiten.html">arbeiten</a></p><br>
         <p><a target="_self "><q href="/html/kontakt.html">kontakt</q></a></p>
     </nav>
-    <main style="width: 40vw;float:left;padding-bottom:5vw;padding-top:20vmax;">
+<script>function myFunction() {
+  var x = document.getElementById("myLinks");
+  var y = document.getElementById("yes");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    y.style.display="inline-block";
+  } else {
+    x.style.display = "block";
+    x.style.float = "left";
+    y.style.display="none";
+  }
+}</script>
+<div class="topnav" style="width:5vw;height:5vw;float:left;">
+  <a class="active"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks" style="width:20vw;padding-top:5vw;">
+    <p><a target="_self "><q href="/index.html">luca blum</q></a></p><br>
+    <p><a target="_self " href="/html/info.html">über mich</a></p><br>
+    <p><a target="_self " href="/html/arbeiten.html">arbeiten</a></p><br>
+    <p><a target="_self " href="/html/kontakt.html">kontakt</a></p>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i style="font-size:5vw;">●</i>
+  </a>
+</div>
+    <main id="yes" style="width: 40vw;float:left;padding-bottom:5vw;padding-top:20vmax;">
         <p>
             <a style="color:black" href="mailto:lucablum@hotmail.ch"><i>lucablum@hotmail.ch</i></a>
         </p>
