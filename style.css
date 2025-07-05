@@ -88,6 +88,10 @@ q {
   top: .5vw;
 }
 
+.topnav a.icon:hover {
+    cursor:pointer;
+}
+
 /* Style the active link (or home/logo) */
 .active {
   color: black;
