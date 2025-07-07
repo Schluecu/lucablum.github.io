@@ -100,5 +100,5 @@ q {
 }
 
 arrow {
-    margin-top:-calc(2*clamp(18pt, 3.5vmax, 3.5vw));
+    margin-top: 2vh;
 }
