@@ -98,3 +98,7 @@ q {
     -webkit-text-stroke-width: 0;
     font-size: clamp(18pt, 3.5vmax, 3.5vw);
 }
+
+arrow {
+    vertical-align:calc(.1*clamp(18pt, 3.5vmax, 3.5vw));
+}
