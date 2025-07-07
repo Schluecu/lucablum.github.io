@@ -98,7 +98,3 @@ q {
     -webkit-text-stroke-width: 0;
     font-size: clamp(18pt, 3.5vmax, 3.5vw);
 }
-
-arrow {
-    line-height: 2vh;
-}
