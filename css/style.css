@@ -30,7 +30,7 @@ nav {
 }
 
 main {
-    font-size: clamp(12pt, 1.5vmax, 1.5vw);
+    font-size: clamp(12.5pt, 1.5vmax, 1.5vw);
     line-height: 1.3;
 }
 
