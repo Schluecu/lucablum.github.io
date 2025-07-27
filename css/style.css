@@ -19,6 +19,7 @@
 body {
     -webkit-user-select: none;
     font-family: "ABC Otto Variable Edu Light";
+    background-color:gainsboro;
 }
 
 nav {
