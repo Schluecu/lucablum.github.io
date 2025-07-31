@@ -19,8 +19,8 @@
 body {
     -webkit-user-select: none;
     font-family: "ABC Otto Variable Edu Light";
-    @media (prefers-color-scheme: dark) {background-color:#1A1A1A;}
-    @media (prefers-color-scheme: light) {background-color:gainsboro;}
+    @media (prefers-color-scheme: dark) {background-color:#1A1A1A;color:gainsboro;}
+    @media (prefers-color-scheme: light) {background-color:gainsboro;color:black;}
 }
 
 nav {
