@@ -5,11 +5,11 @@ function myFunction() {
   if (x.style.display === "block") {
     x.style.display = "none";
     y.style.display="inline-block";
-    z.style="font-size:5vw;@media (prefers-color-scheme: dark) {color: gainsboro;-webkit-text-stroke-color: gainsboro;}@media (prefers-color-scheme: light) {color: black;-webkit-text-stroke-color: black;};-webkit-text-stroke-width: 0;";
+    z.style="font-size:5vw;-webkit-text-stroke-width: 0;";
   } else {
     y.style.display="none";
-    z.style="font-size:5vw; color: transparent;-webkit-text-stroke-color: black;-webkit-text-stroke-width: calc(3.5vmax/50);";
-    x.style="width:20vw;padding-top:5vw;display:block; float:left; color: transparent;@media (prefers-color-scheme: dark) {-webkit-text-stroke-color: gainsboro;}@media (prefers-color-scheme: light) {-webkit-text-stroke-color: black;};;-webkit-text-stroke-width: calc(3.5vmax/50);";
+    z.style="font-size:5vw; color: transparent;-webkit-text-stroke-width: calc(3.5vmax/50);";
+    x.style="width:20vw;padding-top:5vw;display:block; float:left; color: transparent;-webkit-text-stroke-width: calc(3.5vmax/50);";
   }
 }
 function openDesc1() {var x = document.getElementById("desc1");if (x.style.display === "none") {x.style.display = "block";} else {x.style.display = "none";}}
