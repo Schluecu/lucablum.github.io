@@ -83,6 +83,18 @@ q {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
+  @media (prefers-color-scheme: dark) {-webkit-text-stroke-color: gainsboro;}
+  @media (prefers-color-scheme: light) {-webkit-text-stroke-color: black;};
+}
+
+#dot {
+    @media (prefers-color-scheme: dark) {color: gainsboro;-webkit-text-stroke-color: gainsboro;}
+    @media (prefers-color-scheme: light) {color: black;-webkit-text-stroke-color: black;};
+}
+
+r {
+    @media (prefers-color-scheme: dark) {color: gainsboro;}
+    @media (prefers-color-scheme: light) {color: black;};
 }
 
 /* Style navigation menu links */
