@@ -12,4 +12,4 @@ function myFunction() {
     x.style="width:20vw;padding-top:5vw;display:block; float:left; color: transparent;-webkit-text-stroke-width: calc(3.5vmax/50);";
   }
 }
-function openDesc(id) {var x = document.getElementById(id);if (x.style.display === "none") {x.style.display = "block";} else {x.style.display = "none";}}
+function openDesc(theid) {var x = document.getElementById(theid);if (x.style.display === "none") {x.style.display = "block";} else {x.style.display = "none";}}
