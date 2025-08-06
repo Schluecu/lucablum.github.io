@@ -38,7 +38,7 @@ main {
 }
 
 spalte {min-width:250px;max-width:1000px;width:20vw;float:left;margin-bottom:2vmax;padding-right:5vw;}
-.bildspalte {min-width:250px;max-width:1000px;width:20vw;float:left;margin-bottom:2vmax;padding-right:5vw;}
+.bildspalte {min-width:250px;max-width:1000px;width:20vw;}
 
 textPath {
     @media (prefers-color-scheme: dark) {fill: gainsboro;}
