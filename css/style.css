@@ -87,15 +87,6 @@ q {
     .topnav {display:none;}
 }
 
-#circlePath {
-  animation: rotato 15s infinite;
-}
-
-@keyframes rotato {
-  from {rotate:0}
-  to {rotate: 360;}
-}
-
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
