@@ -131,7 +131,7 @@ r {
     font-size: clamp(18pt, 3.5vmax, 3.5vw);
 }
 
-.skillSelect {
+.selectSkill {
     style:inline-block;
     margin-right:1vw;
     font-family:"ABC Otto Variable Edu Light Italic";
