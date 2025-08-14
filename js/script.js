@@ -21,6 +21,11 @@ function openDesc(theid) {
 
 function filti(element) {
   var lmnt = document.getElementsByClassName(element);
+  var stil = document.getElementById(element);
+  if (stil.style==="font-family:ABC Otto Variable Edu Light Italic"){
+  stil.style="font-family:ABC Otto Variable Edu Regular";
+  }else{
+  stil.style="font-family:ABC Otto Variable Edu Light Italic"}
   lemenent(lmnt);
 }
 
