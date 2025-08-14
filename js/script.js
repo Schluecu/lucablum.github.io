@@ -12,8 +12,20 @@ function myFunction() {
     x.style="width:20vw;padding-top:5vw;display:block; float:left; color: transparent;-webkit-text-stroke-width: calc(3.5vmax/50);";
   }
 }
+
 function openDesc(theid) {
   console.log(theid);
   var x = document.getElementById(theid);
   if (x.style.display === "none") {x.style.display = "block";}
   else {x.style.display = "none";}}
+
+function filter(element) {
+  var lmnt = document.getElementByClassName(element);
+  lmnt(lmnt);
+}
+
+function lmnt(emelent) {
+  for(var i=0, len=emelent.length; i<len; i++) {
+    if (emelent[i].style.display === "block") {emelent[i].style.display = "none";}
+    else {emelent[i].style.display = "block";}
+}
