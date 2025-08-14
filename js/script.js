@@ -19,13 +19,13 @@ function openDesc(theid) {
   if (x.style.display === "none") {x.style.display = "block";}
   else {x.style.display = "none";}}
 
-function filti(element) {
-  var lmnt = document.getElementsByClassName(element);
-  lmnt(lmnt);
-}
-
 function lmnt(emelent) {
   for(var i=0, len=emelent.length; i<len; i++) {
     if (emelent[i].style.display === "block") {emelent[i].style.display = "none";}
     else {emelent[i].style.display = "block";}
 }}
+
+function filti(element) {
+  var lmnt = document.getElementsByClassName(element);
+  lmnt(element);
+}
