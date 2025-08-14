@@ -21,7 +21,7 @@ function openDesc(theid) {
 
 function filti(element) {
   var lmnt = document.getElementsByClassName(element);
-  lemenent(element);
+  lemenent(lmnt);
 }
 
 function lemenent(emelent) {
