@@ -19,7 +19,7 @@ function openDesc(theid) {
   if (x.style.display === "none") {x.style.display = "block";}
   else {x.style.display = "none";}}
 
-function filter(element) {
+function filti(element) {
   var lmnt = document.getElementByClassName(element);
   lmnt(lmnt);
 }
