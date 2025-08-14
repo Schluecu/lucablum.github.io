@@ -28,4 +28,4 @@ function lmnt(emelent) {
   for(var i=0, len=emelent.length; i<len; i++) {
     if (emelent[i].style.display === "block") {emelent[i].style.display = "none";}
     else {emelent[i].style.display = "block";}
-}
+}}
