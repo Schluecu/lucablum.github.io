@@ -20,7 +20,7 @@ function openDesc(theid) {
   else {x.style.display = "none";}}
 
 function filti(element) {
-  var lmnt = document.getElementByClassName(element);
+  var lmnt = document.getElementsByClassName(element);
   lmnt(lmnt);
 }
 
