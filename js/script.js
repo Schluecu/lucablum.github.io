@@ -37,9 +37,9 @@ function filti(element) {
     selectors[i].style.fontFamily="ABC Otto Variable Edu Regular";
     stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
     lemenent(lmnt);
-    console.log(active[selecting.indexOf(element)]);
-    active[selecting.indexOf(element)]=1;
     }
+    active[selecting.indexOf(element)]=1;
+    console.log(active[selecting.indexOf(element)]);
     }
 }}
 
