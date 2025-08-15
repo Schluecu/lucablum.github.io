@@ -30,7 +30,7 @@ function filti(element) {
   if (element==='reset'){
     reset();
   }else{
-    console.log(selecting.indexOf(element));
+    console.log(active);
     if(active[selecting.indexOf(element)] === 1){
       reset();
     }else{
