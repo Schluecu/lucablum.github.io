@@ -31,7 +31,7 @@ function filti(element) {
     skills.style.fontFamily="ABC Otto Variable Edu Regular";
     stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
     lemenent(lmnt);
-}
+}}
 
 function lemenent(emelent) {
   for(var i=0, len=emelent.length; i<len; i++) {
