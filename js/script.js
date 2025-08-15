@@ -25,9 +25,11 @@ function filti(element) {
   if (stil.style.fontFamily === "'ABC Otto Variable Edu Light Italic'"){
     stil.style.fontFamily="ABC Otto Variable Edu Regular";
     lemenent(lmnt);
+    console.log('if');
   }else{
     stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
     lemenent(lmnt);
+    console.log('else');
   }
 }
 
