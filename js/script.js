@@ -25,7 +25,7 @@ function filti(element) {
   var selectors = document.getElementsByClassName('selectSkill');
   var stil = document.getElementById(element);
   var selectoggle = Array(selectors);
-  console.log(selectoggle);
+  console.log(selectoggle, selectoggle[stil]);
   if (element==='reset'){
     reset();
   }else{
