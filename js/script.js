@@ -23,7 +23,7 @@ function filti(element) {
   var lmnt = document.getElementsByClassName(element);
   var stil = document.getElementById(element);
   var i = 0;
-  if (i=0){
+  if (i==0){
     stil.style.fontFamily="ABC Otto Variable Edu Regular";
     lemenent(lmnt);
     i++;
