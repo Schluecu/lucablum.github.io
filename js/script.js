@@ -19,20 +19,21 @@ function openDesc(theid) {
   if (x.style.display === "none") {x.style.display = "block";}
   else {x.style.display = "none";}}
 
+var j = 0;
+
 function filti(element) {
   var lmnt = document.getElementsByClassName(element);
   var stil = document.getElementById(element);
-  var i = 0;
-  if (i==0){
+  if (j==0){
     stil.style.fontFamily="ABC Otto Variable Edu Regular";
     lemenent(lmnt);
-    i++;
-    console.log(i);
+    j++;
+    console.log(j);
   }else{
     stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
     lemenent(lmnt);
-    i=0;
-    console.log(i);
+    j=0;
+    console.log(j);
   }
 }
 
