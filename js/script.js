@@ -22,10 +22,9 @@ function openDesc(theid) {
 
 function filti(element) {
   var lmnt = document.getElementsByClassName(element);
-  var skills = document.getElementsByClassName('skill');
   var selectors = document.getElementsByClassName('selectSkill');
   var stil = document.getElementById(element);
-  var selectoggle = Array(selectors.length);
+  var selectoggle = Array(selectors);
   console.log(selectoggle);
   if (element==='reset'){
     reset();
@@ -47,6 +46,7 @@ function lemenent(emelent) {
 }}
 
 function reset() {
+  var skills = document.getElementsByClassName('skill');
   for(var i=0, len=skills.length; i<len; i++) {
     skills[i].style.display = "inline-flex";
   }
