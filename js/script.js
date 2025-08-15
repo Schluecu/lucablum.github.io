@@ -22,18 +22,22 @@ function openDesc(theid) {
 
 function filti(element) {
   var lmnt = document.getElementsByClassName(element);
-  var skills = document.getElementsByClassName('selectSkill');
+  var skills = document.getElementsByClassName('skill');
+  var selectors = document.getElementsByClassName('selectSkill');
   var stil = document.getElementById(element);
   if (element==='reset'){
-    for (var i=0, len=skills.length; i<len; i++){
-    skills[i].style.fontFamily="ABC Otto Variable Edu Light Italic";
+    for(var i=0, len=skills.length; i<len; i++) {
+      skills[i].style.display = "block";
+    }
+    for (var i=0, len=selectors.length; i<len; i++){
+    selectors[i].style.fontFamily="ABC Otto Variable Edu Light Italic";
     }
     for (var i=0, len=lmnt.length; i<len; i++){
       lmnt[i].style.display="block"
     }
   }else{
-    for (var i=0, len=skills.length; i<len; i++){
-    skills[i].style.fontFamily="ABC Otto Variable Edu Regular";
+    for (var i=0, len=selectors.length; i<len; i++){
+    selectors[i].style.fontFamily="ABC Otto Variable Edu Regular";
     stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
     lemenent(lmnt);
     }
