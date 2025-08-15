@@ -14,7 +14,6 @@ function myFunction() {
 }
 
 function openDesc(theid) {
-  console.log(theid);
   var x = document.getElementById(theid);
   if (x.style.display === "none") {x.style.display = "block";}
   else {x.style.display = "none";}}
@@ -24,15 +23,19 @@ function filti(element) {
   var lmnt = document.getElementsByClassName(element);
   var selectors = document.getElementsByClassName('selectSkill');
   var stil = document.getElementById(element);
-  var selectoggle = Array(selectors);
-  console.log(selectoggle, selectoggle[1]);
+  var active = Array(selectors.lenght);
   if (element==='reset'){
     reset();
   }else{
+    if(false){
+    }else{
     for (var i=0, len=selectors.length; i<len; i++){
     selectors[i].style.fontFamily="ABC Otto Variable Edu Regular";
     stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
     lemenent(lmnt);
+    active[selectors.indexOf(element)]=1;
+    console.log(active);
+    }
     }
 }}
 
