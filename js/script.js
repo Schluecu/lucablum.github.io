@@ -23,17 +23,22 @@ function filti(element) {
   var lmnt = document.getElementsByClassName(element);
   var selectors = document.getElementsByClassName('selectSkill');
   var stil = document.getElementById(element);
-  var active = Array(selectors.lenght);
+  var selecting = Array(selectors.length);
+  var active = Array(selectors.length);
+  for(var i=0, len=selectors.length; i<len; i++){
+    selecting[i]=selectors[i].id;
+  }
   if (element==='reset'){
     reset();
   }else{
-    if(false){
+    if(active[selecting.getIndexOf(element)] === 1){
+      reset();
     }else{
     for (var i=0, len=selectors.length; i<len; i++){
     selectors[i].style.fontFamily="ABC Otto Variable Edu Regular";
     stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
     lemenent(lmnt);
-    active[selectors.indexOf(element)]=1;
+    active[selecting.indexOf(element)]++;
     console.log(active);
     }
     }
