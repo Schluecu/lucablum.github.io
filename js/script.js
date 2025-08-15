@@ -24,6 +24,7 @@ function filti(element) {
   var stil = document.getElementById(element);
   if (stil.style.fontFamily === "ABC Otto Variable Edu Light Italic"){
     stil.style.fontFamily="ABC Otto Variable Edu Regular";}
+    lemenent(lmnt);
   else
   {
     stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
