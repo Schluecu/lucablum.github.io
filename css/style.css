@@ -132,7 +132,10 @@ r {
 }
 
 .selectSkill {
-    style:inline-block;
     margin-right:1vw;
     font-family:"ABC Otto Variable Edu Light Italic";
+}
+
+.skill {
+    display:inline-flex;
 }
