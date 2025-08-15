@@ -35,6 +35,7 @@ function filti(element) {
     for (var i=0, len=lmnt.length; i<len; i++){
       lmnt[i].style.display="block"
     }
+    document.getElementById('reset').style.fontFamily="ABC Otto Variable Edu Regular";
   }else{
     for (var i=0, len=selectors.length; i<len; i++){
     selectors[i].style.fontFamily="ABC Otto Variable Edu Regular";
