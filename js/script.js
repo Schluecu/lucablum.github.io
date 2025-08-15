@@ -18,10 +18,9 @@ function openDesc(theid) {
   if (x.style.display === "none") {x.style.display = "block";}
   else {x.style.display = "none";}}
 
-
+var selectors = document.getElementsByClassName('selectSkill');
 function filti(element) {
   var lmnt = document.getElementsByClassName(element);
-  var selectors = document.getElementsByClassName('selectSkill');
   var stil = document.getElementById(element);
   var selecting = Array(selectors.length);
   var active = Array(selectors.length);
