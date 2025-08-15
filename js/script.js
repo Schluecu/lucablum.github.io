@@ -32,6 +32,8 @@ function filti(element) {
   }else{
     if(active[selecting.indexOf(element)] == 1){
       reset();
+      active[selecting.indexOf(element)]=1;
+      console.log(element, active[selecting.indexOf(element)]);
     }else{
     for (var i=0, len=selectors.length; i<len; i++){
     selectors[i].style.fontFamily="ABC Otto Variable Edu Regular";
@@ -39,7 +41,7 @@ function filti(element) {
     lemenent(lmnt);
     }
     active[selecting.indexOf(element)]=1;
-    console.log(active[selecting.indexOf(element)]);
+    console.log(element, active[selecting.indexOf(element)]);
     }
 }}
 
