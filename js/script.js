@@ -31,7 +31,7 @@ function filti(element) {
   if (element==='reset'){
     reset();
   }else{
-    if(active[selecting.getIndexOf(element)] === 1){
+    if(active[selecting.indexOf(element)] === 1){
       reset();
     }else{
     for (var i=0, len=selectors.length; i<len; i++){
