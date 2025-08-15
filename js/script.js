@@ -22,12 +22,14 @@ function openDesc(theid) {
 function filti(element) {
   var lmnt = document.getElementsByClassName(element);
   var stil = document.getElementById(element);
-  console.log(stil.style.fontFamily);
+  console.log(stil.style.fontFamily)
   if (stil.style.fontFamily === "ABC Otto Variable Edu Light Italic"){
-  stil.style.setProperty="'font-family',ABC Otto Variable Edu Regular";
+    stil.style.fontFamily="ABC Otto Variable Edu Regular";
+    console.log(stil.style.fontFamily)
   }else{
-  stil.style.setProperty="'font-family',ABC Otto Variable Edu Light Italic"}
-  lemenent(lmnt);
+    console.log(stil.style.fontFamily)
+    stil.style.fontFamily="ABC Otto Variable Edu Light Italic"}
+    lemenent(lmnt);
 }
 
 function lemenent(emelent) {
