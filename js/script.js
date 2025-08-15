@@ -30,6 +30,7 @@ function filti(element) {
   if (element==='reset'){
     reset();
   }else{
+    console.log(selecting.indexOf(element);
     if(active[selecting.indexOf(element)] === 1){
       reset();
     }else{
@@ -37,8 +38,8 @@ function filti(element) {
     selectors[i].style.fontFamily="ABC Otto Variable Edu Regular";
     stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
     lemenent(lmnt);
+    console.log(selecting.indexOf(element);
     active[selecting.indexOf(element)]++;
-    console.log(active);
     }
     }
 }}
