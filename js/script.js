@@ -28,8 +28,8 @@ function filti(element) {
     skills.style.fontFamily="ABC Otto Variable Edu Light Italic";
     skills.style.display="block"
   }else{
-    skills.style.fontFamily="ABC Otto Variable Edu Regular";
-    stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
+    skills.style.setProperty="'font-family', ABC Otto Variable Edu Regular";
+    stil.style.setProperty="'font-family', ABC Otto Variable Edu Light Italic";
     lemenent(lmnt);
 }}
 
