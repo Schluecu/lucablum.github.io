@@ -33,7 +33,7 @@ function filti(element) {
     selectors[i].style.fontFamily="ABC Otto Variable Edu Light Italic";
     }
     for (var i=0, len=lmnt.length; i<len; i++){
-      lmnt[i].style.display="block"
+      lmnt[i].style.display="inline-flex"
     }
     document.getElementById('reset').style.fontFamily="ABC Otto Variable Edu Regular";
   }else{
@@ -50,5 +50,5 @@ function lemenent(emelent) {
     skills[i].style.display="none"
   }
   for(var i=0, len=emelent.length; i<len; i++) {
-    emelent[i].style.display = "block";
+    emelent[i].style.display = "inline-flex";
 }}
