@@ -22,6 +22,7 @@ function openDesc(theid) {
 function filti(element) {
   var lmnt = document.getElementsByClassName(element);
   var stil = document.getElementById(element);
+  console.log(stil);
   if (stil.style.fontFamily==='ABC Otto Variable Edu Light Italic'){
   stil.style.fontFamily='ABC Otto Variable Edu Regular';
   }else{
