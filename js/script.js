@@ -23,15 +23,15 @@ function filti(element) {
   var lmnt = document.getElementsByClassName(element);
   var stil = document.getElementById(element);
   var i = 0;
-  if (i===0){
+  if (i=0){
     stil.style.fontFamily="ABC Otto Variable Edu Regular";
     lemenent(lmnt);
-    i==1;
+    i++;
     console.log(i);
   }else{
     stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
     lemenent(lmnt);
-    i==0;
+    i=0;
     console.log(i);
   }
 }
