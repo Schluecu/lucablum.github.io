@@ -28,7 +28,7 @@ function filti(element) {
     console.log(stil.style.fontFamily)
   }else{
     console.log(stil.style.fontFamily)
-    stil.style.fontFamily="ABC Otto Variable Edu Light Italic"}
+    stil.style.fontFamily="ABC Otto Variable Edu Regular"}
     lemenent(lmnt);
 }
 
