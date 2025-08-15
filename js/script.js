@@ -27,13 +27,10 @@ function filti(element) {
   var stil = document.getElementById(element);
   if (element==='reset'){
     for(var i=0, len=skills.length; i<len; i++) {
-      skills[i].style.display = "block";
+      skills[i].style.display = "inline-flex";
     }
     for (var i=0, len=selectors.length; i<len; i++){
     selectors[i].style.fontFamily="ABC Otto Variable Edu Light Italic";
-    }
-    for (var i=0, len=lmnt.length; i<len; i++){
-      lmnt[i].style.display="inline-flex"
     }
     document.getElementById('reset').style.fontFamily="ABC Otto Variable Edu Regular";
   }else{
