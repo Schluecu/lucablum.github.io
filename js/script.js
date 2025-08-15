@@ -27,6 +27,11 @@ function filti(element) {
   for(var i=0, len=selectors.length; i<len; i++){
     selecting[i]=selectors[i].id;
   }
+  for(var i=0, len=selectors.length; i<len; i++){
+    active[i]--;
+    active[element]++;
+    console.log('semireset', active);
+  }
   if (element==='reset'){
     reset();
   }else{
