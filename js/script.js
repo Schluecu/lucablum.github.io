@@ -25,14 +25,10 @@ function filti(element) {
   var skills = document.getElementsByClassName('skill');
   var selectors = document.getElementsByClassName('selectSkill');
   var stil = document.getElementById(element);
+  var selectoggle = Array(selectors.length);
+  console.log(selectoggle);
   if (element==='reset'){
-    for(var i=0, len=skills.length; i<len; i++) {
-      skills[i].style.display = "inline-flex";
-    }
-    for (var i=0, len=selectors.length; i<len; i++){
-    selectors[i].style.fontFamily="ABC Otto Variable Edu Light Italic";
-    }
-    document.getElementById('reset').style.fontFamily="ABC Otto Variable Edu Regular";
+    reset();
   }else{
     for (var i=0, len=selectors.length; i<len; i++){
     selectors[i].style.fontFamily="ABC Otto Variable Edu Regular";
@@ -49,3 +45,13 @@ function lemenent(emelent) {
   for(var i=0, len=emelent.length; i<len; i++) {
     emelent[i].style.display = "inline-flex";
 }}
+
+function reset() {
+  for(var i=0, len=skills.length; i<len; i++) {
+    skills[i].style.display = "inline-flex";
+  }
+  for (var i=0, len=selectors.length; i<len; i++){
+    selectors[i].style.fontFamily="ABC Otto Variable Edu Light Italic";
+  }
+  document.getElementById('reset').style.fontFamily="ABC Otto Variable Edu Regular";
+}
