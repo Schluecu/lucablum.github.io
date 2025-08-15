@@ -22,7 +22,7 @@ function openDesc(theid) {
 
 function filti(element) {
   var lmnt = document.getElementsByClassName(element);
-  var skills = document.getElementsByClassName(selectSkill);
+  var skills = document.getElementsByClassName('selectSkill');
   var stil = document.getElementById(element);
   if (element==='reset'){
     skills.style.fontFamily="ABC Otto Variable Edu Light Italic";
