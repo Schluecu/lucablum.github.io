@@ -26,11 +26,13 @@ function filti(element) {
   if (i===0){
     stil.style.fontFamily="ABC Otto Variable Edu Regular";
     lemenent(lmnt);
-    i++;
+    i==1;
+    console.log(i);
   }else{
     stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
     lemenent(lmnt);
-    i--;
+    i==0;
+    console.log(i);
   }
 }
 
