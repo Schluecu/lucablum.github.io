@@ -25,12 +25,16 @@ function filti(element) {
   var skills = document.getElementsByClassName('selectSkill');
   var stil = document.getElementById(element);
   if (element==='reset'){
-    skills.style.fontFamily="ABC Otto Variable Edu Light Italic";
-    skills.style.display="block"
+    for (i=0,len=skills.length; i<len; i++){
+    skills[i].style.fontFamily="ABC Otto Variable Edu Light Italic";
+    skills[i].style.display="block"
+    }
   }else{
-    skills.style.fontFamily="ABC Otto Variable Edu Regular";
+    for (i=0; len=skills.length; i<len; i++){
+    skills[i].style.fontFamily="ABC Otto Variable Edu Regular";
     stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
     lemenent(lmnt);
+    }
 }}
 
 function lemenent(emelent) {
