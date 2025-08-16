@@ -42,7 +42,6 @@ function filti(element) {
     for (var i=0, len=selectors.length; i<len; i++){
       selectors[i].style.fontFamily="ABC Otto Variable Edu Regular";
       stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
-      active[i]=false;
       lemenent(lmnt);
     }
     active[selecting.indexOf(element)]=true;
