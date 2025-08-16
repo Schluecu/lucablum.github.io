@@ -28,6 +28,7 @@ function filti(element) {
     for(var i=0, len=selectors.length; i<len; i++){
       selecting[i]=selectors[i].id;
       active[i]=false;
+      filti(element);
     }}else{
   var lmnt = document.getElementsByClassName(element);
   var stil = document.getElementById(element);
