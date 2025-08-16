@@ -141,6 +141,6 @@ r {
     width:auto;
 }
 
-.skill:not(:first-child):before{
-    content:", ";
+.skill:after{
+    content:"| ";
 }
