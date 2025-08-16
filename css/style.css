@@ -141,10 +141,6 @@ r {
     width:auto;
 }
 
-.skill:after{
+.skill:not(:first-child):before{
     content:", ";
-}
-
-.skill:not([style*="display: none"]):last:after{
-    content:"";
 }
