@@ -31,11 +31,6 @@ function filti(element) {
     }}else{
   var lmnt = document.getElementsByClassName(element);
   var stil = document.getElementById(element);
-  for(var i=0, len=selectors.length; i<len; i++){
-    active[i]=false;
-  }
-  active[selecting.indexOf(element)]=true;
-  console.log('semireset', active);
   if (element==='reset'){
     reset();
   }else{
@@ -52,7 +47,13 @@ function filti(element) {
     active[selecting.indexOf(element)]=true;
     console.log(element, active[selecting.indexOf(element)]);
     }
-}}}
+  }}
+  for(var i=0, len=selectors.length; i<len; i++){
+    active[i]=false;
+  }
+  active[selecting.indexOf(element)]=true;
+  console.log('semireset', active);
+}
 
 function lemenent(emelent) {
   var skills=document.getElementsByClassName('skill');
