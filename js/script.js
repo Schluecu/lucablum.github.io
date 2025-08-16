@@ -30,8 +30,8 @@ function filti(element) {
   var stil = document.getElementById(element);
   for(var i=0, len=selectors.length; i<len; i++){
     active[i]--;
-    active[selecting.indexOf(element)]++;
   }
+  active[selecting.indexOf(element)]++;
   console.log('semireset', active);
   if (element==='reset'){
     reset();
