@@ -139,7 +139,12 @@ r {
 .skill {
     display:inline-flex;
     width:auto;
-    ::not(:last-of-type):after{
-        content:", "
-    }
+}
+
+.skill:after{
+    content:", ";
+}
+
+.skill:last-child:after{
+    content:"";
 }
