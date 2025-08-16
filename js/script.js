@@ -21,11 +21,14 @@ function openDesc(theid) {
 var selectors = document.getElementsByClassName('selectSkill');
 var selecting = Array(selectors.length);
 var active = Array(selectors.length);
-for(var i=0, len=selectors.length; i<len; i++){
-    selecting[i]=selectors[i].id;
-    active[i]=0;
-  }
+var firsttime = 0;
 function filti(element) {
+  if(firsttime === 0){
+    firsttime++;
+    for(var i=0, len=selectors.length; i<len; i++){
+      selecting[i]=selectors[i].id;
+      active[i]=0;
+    }}else{
   var lmnt = document.getElementsByClassName(element);
   var stil = document.getElementById(element);
   for(var i=0, len=selectors.length; i<len; i++){
@@ -49,7 +52,7 @@ function filti(element) {
     active[selecting.indexOf(element)]=1;
     console.log(element, active[selecting.indexOf(element)]);
     }
-}}
+}}}
 
 function lemenent(emelent) {
   var skills=document.getElementsByClassName('skill');
