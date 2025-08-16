@@ -21,18 +21,18 @@ function openDesc(theid) {
 var selectors = document.getElementsByClassName('selectSkill');
 var selecting = Array(selectors.length);
 var active = Array(selectors.length);
-for(var i=0, len=selectors.length; i<len; i++){
-  selecting[i]=selectors[i].id;
-  active[i]=0;
-}
 function filti(element) {
+  for(var i=0, len=selectors.length; i<len; i++){
+    selecting[i]=selectors[i].id;
+    active[i]=0;
+  }
   var lmnt = document.getElementsByClassName(element);
   var stil = document.getElementById(element);
   for(var i=0, len=selectors.length; i<len; i++){
     active[i]--;
-    active[element]++;
-    console.log('semireset', active);
+    active[selecting.indexOf(element)]++;
   }
+  console.log('semireset', active);
   if (element==='reset'){
     reset();
   }else{
