@@ -27,29 +27,29 @@ function filti(element) {
     firsttime++;
     for(var i=0, len=selectors.length; i<len; i++){
       selecting[i]=selectors[i].id;
-      active[i]=0;
+      active[i]=null;
     }}else{
   var lmnt = document.getElementsByClassName(element);
   var stil = document.getElementById(element);
   for(var i=0, len=selectors.length; i<len; i++){
-    active[i]--;
+    active[i]=false;
   }
-  active[selecting.indexOf(element)]++;
+  active[selecting.indexOf(element)]=true;
   console.log('semireset', active);
   if (element==='reset'){
     reset();
   }else{
-    if(active[selecting.indexOf(element)] == 1){
+    if(active[selecting.indexOf(element)] == true){
       reset();
-      active[selecting.indexOf(element)]=1;
-      console.log(element, active[selecting.indexOf(element)]);
+      active[selecting.indexOf(element)]=false;
     }else{
     for (var i=0, len=selectors.length; i<len; i++){
-    selectors[i].style.fontFamily="ABC Otto Variable Edu Regular";
-    stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
-    lemenent(lmnt);
+      selectors[i].style.fontFamily="ABC Otto Variable Edu Regular";
+      stil.style.fontFamily="ABC Otto Variable Edu Light Italic";
+      active[i]=false;
+      lemenent(lmnt);
     }
-    active[selecting.indexOf(element)]=1;
+    active[selecting.indexOf(element)]=true;
     console.log(element, active[selecting.indexOf(element)]);
     }
 }}}
