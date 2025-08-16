@@ -139,4 +139,7 @@ r {
 .skill {
     display:inline-flex;
     width:auto;
+    :not(:last-of-type):after{
+        content:", "
+    }
 }
