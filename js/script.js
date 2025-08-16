@@ -73,5 +73,4 @@ function reset() {
   for (var i=0, len=selectors.length; i<len; i++){
     selectors[i].style.fontFamily="ABC Otto Variable Edu Light Italic";
   }
-  document.getElementById('reset').style.fontFamily="ABC Otto Variable Edu Regular";
 }
