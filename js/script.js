@@ -19,14 +19,15 @@ function openDesc(theid) {
   else {x.style.display = "none";}}
 
 var selectors = document.getElementsByClassName('selectSkill');
+var selecting = Array(selectors.length);
+var active = Array(selectors.length);
+for(var i=0, len=selectors.length; i<len; i++){
+  selecting[i]=selectors[i].id;
+  active[i]=0;
+}
 function filti(element) {
   var lmnt = document.getElementsByClassName(element);
   var stil = document.getElementById(element);
-  var selecting = Array(selectors.length);
-  var active = Array(selectors.length);
-  for(var i=0, len=selectors.length; i<len; i++){
-    selecting[i]=selectors[i].id;
-  }
   for(var i=0, len=selectors.length; i<len; i++){
     active[i]--;
     active[element]++;
