@@ -145,6 +145,6 @@ r {
     content:", ";
 }
 
-.skill:visible:last-child:after{
+.skill:last-child:visible:after{
     content:"";
 }
