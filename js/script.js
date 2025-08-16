@@ -47,12 +47,12 @@ function filti(element) {
     active[selecting.indexOf(element)]=true;
     console.log(element, active[selecting.indexOf(element)]);
     }
-  }}
-  for(var i=0, len=selectors.length; i<len; i++){
+    for(var i=0, len=selectors.length; i<len; i++){
     active[i]=false;
   }
   active[selecting.indexOf(element)]=true;
   console.log('semireset', active);
+  }}
 }
 
 function lemenent(emelent) {
