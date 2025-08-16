@@ -51,8 +51,8 @@ function filti(element) {
     active[i]=false;
   }
   active[selecting.indexOf(element)]=true;
-  console.log('semireset', active);
   }}
+  console.log('active-check:', active);
 }
 
 function lemenent(emelent) {
