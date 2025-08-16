@@ -137,6 +137,7 @@ r {
 }
 
 .skill {
+    display:flex;
     width:auto;
     margin-right:0.5vw;
     :after{
