@@ -138,6 +138,7 @@ r {
 
 .skill {
     display:inline-flex;
+    flex-wrap:wrap;
     width:auto;
     margin-right:0.5vw;
     :after{
