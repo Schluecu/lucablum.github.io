@@ -27,7 +27,7 @@ function filti(element) {
     firsttime++;
     for(var i=0, len=selectors.length; i<len; i++){
       selecting[i]=selectors[i].id;
-      active[i]=null;
+      active[i]=false;
     }}else{
   var lmnt = document.getElementsByClassName(element);
   var stil = document.getElementById(element);
