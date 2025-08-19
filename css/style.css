@@ -17,7 +17,8 @@
 }
 
 body {
-    -webkit-user-select: none;
+    -webkit-user-select: text;
+    font-family: serif;
     font-family: "ABC Otto Variable Edu Regular";
     @media (prefers-color-scheme: dark) {background-color:#333333;color:gainsboro;}
     @media (prefers-color-scheme: light) {background-color:gainsboro;color:black;}
