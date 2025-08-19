@@ -25,6 +25,7 @@ body {
 }
 
 nav {
+    -webkit-user-select: none;
     @media (prefers-color-scheme: dark) {-webkit-text-stroke-color: gainsboro;}
     @media (prefers-color-scheme: light) {-webkit-text-stroke-color: black;}
     -webkit-text-stroke-width: calc(3.5vmax/50);
