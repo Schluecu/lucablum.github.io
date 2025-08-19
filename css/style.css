@@ -141,7 +141,7 @@ r {
     flex-wrap:wrap;
     width:auto;
     margin-right:1.3vw;
-    :after{
+    ::after{
         content:',';
     }
 }
