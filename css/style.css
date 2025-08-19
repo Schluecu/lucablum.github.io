@@ -140,7 +140,7 @@ r {
     display:inline-flex;
     flex-wrap:wrap;
     width:auto;
-    margin-right:0.5vw;
+    margin-right:1.3vw;
     :after{
         content:',';
     }
