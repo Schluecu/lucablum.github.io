@@ -54,9 +54,20 @@ textPath {
     letter-spacing:.025vmin;
 }
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 #circlePath {
-  -webkit-transform: rotate(360deg);
-  -webkit-transition: -webkit-transform 10s;
+  animation-name:rotate;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
 }
 
 a {
