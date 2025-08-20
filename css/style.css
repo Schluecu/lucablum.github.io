@@ -64,7 +64,7 @@ textPath {
   }
 }
 
-#circlePath {
+#rotateme {
   animation-name:rotate;
   animation-duration:10s;
   animation-iteration-count: infinite;
