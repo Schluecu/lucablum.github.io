@@ -91,6 +91,7 @@ textPath {
 }
 
 #references:after {
+    display:inline-block;
     content:'.';
 }
 
