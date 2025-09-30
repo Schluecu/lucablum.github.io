@@ -20,7 +20,7 @@ function openDesc(theid) {
 
 function showReference(theid) {
   var y = document.getElementById(theid+'trig')
-  if (y.class === 'unopened') {y.class = "opened"}
+  if (y.class === "unopened") {y.class = "opened"}
   var x = document.getElementById(theid);
   if (x.style.display === "none") {x.style.display = "inline";}
   else {x.style.display = "none";}}
