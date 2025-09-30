@@ -27,7 +27,7 @@ body {
 .references {
     background-color:gainsboro;
     color:black;
-    font:Arial;
+    font-family:Arial;
 }
 
 nav {
