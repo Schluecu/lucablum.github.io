@@ -24,6 +24,12 @@ body {
     @media (prefers-color-scheme: light) {background-color:gainsboro;color:black;}
 }
 
+.references {
+    background-color:gainsboro;
+    color:black;
+    font:sans-serif;
+}
+
 nav {
     -webkit-user-select: none;
     @media (prefers-color-scheme: dark) {-webkit-text-stroke-color: gainsboro;}
