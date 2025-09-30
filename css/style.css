@@ -43,7 +43,7 @@ main {
     font-size: clamp(10pt, 1.1vmax, 1.1vw);
 }
 
-.showref:hover {
+.unopened:hover {
     cursor:pointer;
 }
 
