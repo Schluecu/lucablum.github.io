@@ -71,6 +71,10 @@ textPath {
   animation-timing-function: linear;
 }
 
+#references {
+    -webkit-user-select:none;
+}
+
 a {
     color: inherit;
     font-family: "ABC Otto Variable Edu Medium Italic";
