@@ -43,6 +43,10 @@ main {
     font-size: clamp(10pt, 1.1vmax, 1.1vw);
 }
 
+.unopened {
+    text-decoration: underline;
+}
+
 .unopened:hover {
     cursor:pointer;
 }
