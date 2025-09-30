@@ -45,7 +45,7 @@ main {
 
 .unopened {
     text-decoration: underline;
-    text-decoration-thickness:.2vmax;
+    text-decoration-thickness:.09vmax;
 }
 
 .unopened:hover {
