@@ -22,7 +22,7 @@ function showReference(theid) {
   var y = document.getElementById(theid+'trig')
   if (y.className === "unopened") {y.className = "opened"}
   var x = document.getElementById(theid);
-  if (x.style.display === "none") {x.style.display = "inline";}
+  if (x.style.display === "none") {x.style.display = "inline";}}
 
 var selectors = document.getElementsByClassName('selectSkill');
 var selecting = Array(selectors.length);
