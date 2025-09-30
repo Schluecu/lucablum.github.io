@@ -18,6 +18,11 @@ function openDesc(theid) {
   if (x.style.display === "none") {x.style.display = "block";}
   else {x.style.display = "none";}}
 
+function showReference(theid) {
+  var x = document.getElementById(theid);
+  if (x.style.display === "none") {x.style.display = "inline";}
+  else {x.style.display = "none";}}
+
 var selectors = document.getElementsByClassName('selectSkill');
 var selecting = Array(selectors.length);
 var active = Array(selectors.length);
