@@ -90,6 +90,10 @@ textPath {
     -webkit-user-select:none;
 }
 
+#references:after {
+    content:'.':
+}
+
 a {
     color: inherit;
     font-family: "ABC Otto Variable Edu Medium Italic";
