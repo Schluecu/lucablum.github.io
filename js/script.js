@@ -23,7 +23,6 @@ function showReference(theid) {
   if (y.className === "unopened") {y.className = "opened"}
   var x = document.getElementById(theid);
   if (x.style.display === "none") {x.style.display = "inline";}
-  else {x.style.display = "none";}}
 
 var selectors = document.getElementsByClassName('selectSkill');
 var selecting = Array(selectors.length);
