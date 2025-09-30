@@ -92,6 +92,7 @@ textPath {
 
 #references:after {
     display:inline-block;
+    margin-left:-.2vmax;
     content:'.';
 }
 
