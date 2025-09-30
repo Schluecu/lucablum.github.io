@@ -91,7 +91,7 @@ textPath {
 }
 
 #references:after {
-    content:'.':
+    content:'.';
 }
 
 a {
