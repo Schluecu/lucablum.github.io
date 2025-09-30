@@ -172,5 +172,5 @@ r {
 }
 
 .meta:before {
-    content:'U+0020';
+    content:' ';
 }
