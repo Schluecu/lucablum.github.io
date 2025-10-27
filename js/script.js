@@ -15,8 +15,8 @@ function myFunction() {
 
 function openDesc(theid) {
   var x = document.getElementById(theid);
-  if (x.style.display === "none") {x.style.display = "block";}
-  else {x.style.display = "none";}}
+  if (x.style.display === "none") {x.style.display = "block"; console.log('visible '+theid);}
+  else {x.style.display = "none"; console.log('invisible '+theid);}}
 
 function showReference(refer) {
   var y = document.getElementById(refer+'trig')
