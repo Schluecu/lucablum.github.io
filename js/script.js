@@ -18,10 +18,10 @@ function openDesc(theid) {
   if (x.style.display === "none") {x.style.display = "block";}
   else {x.style.display = "none";}}
 
-function showReference(theid) {
-  var y = document.getElementById(theid+'trig')
+function showReference(refer) {
+  var y = document.getElementById(refer+'trig')
   if (y.className === "unopened") {y.className = "opened"}
-  var x = document.getElementById(theid);
+  var x = document.getElementById(refer);
   if (x.style.display === "none") {x.style.display = "inline";}}
 
 var selectors = document.getElementsByClassName('selectSkill');
