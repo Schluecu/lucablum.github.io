@@ -15,7 +15,7 @@ function myFunction() {
 
 function openDesc(theid) {
   var x = document.getElementById(theid);
-  if (x.style.display === "none") {x.style.display = "block"; console.log('visible '+theid);}
+  if (x.style.display === "none") {x.style.display = "inline"; console.log('visible '+theid);}
   else {x.style.display = "none"; console.log('invisible '+theid);}}
 
 function showReference(refer) {
