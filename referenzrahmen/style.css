@@ -9,11 +9,11 @@ body {
 main {
     width:55vw;
     @media (min-width:1000px) {
-        font-size: max(3vmin, 25px);
+        font-size: clamp(18pt, 3vmin, 25px);
         margin-left:20vw;
         margin-right:25vw;}
     @media (max-width:999px) {
-        font-size: 25px;
+        font-size: 18pt;
         margin-left:10vw;
         margin-right:15vw;}
     margin-left:20vw;
