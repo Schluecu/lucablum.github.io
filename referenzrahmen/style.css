@@ -1,6 +1,7 @@
 body {
     font-family: serif;
-    font-size: max(3vmin, 18pt);
+    @media (min-width:800px) {font-size: max(3vmin, 18pt);}
+    @media (max-width:799px) {font-size: 18pt;}
     user-select: none;
     -webkit-user-select: none;
     font-family: 'Times New Roman', Times, "Otto", sans-serif;
