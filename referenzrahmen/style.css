@@ -1,7 +1,5 @@
 body {
     font-family: serif;
-    @media (min-width:800px) {font-size: max(3vmin, 18pt);}
-    @media (max-width:799px) {font-size: 18pt;}
     user-select: none;
     -webkit-user-select: none;
     font-family: 'Times New Roman', Times, "Otto", sans-serif;
@@ -10,6 +8,14 @@ body {
 
 main {
     width:55vw;
+    @media (min-width:800px) {
+        font-size: max(3vmin, 18pt);
+        margin-left:20vw;
+        margin-right:25vw;}
+    @media (max-width:799px) {
+        font-size: 18pt;
+        margin-left:10vw;
+        margin-right:15vw;}
     margin-left:20vw;
     margin-right:25vw;
     margin-top:10vh;
