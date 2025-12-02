@@ -9,14 +9,14 @@ body {
 main {
     @media (min-width:800px) {
         width:55vw;
-        font-size: clamp( 25pt, 3vh, 35pt);
+        font-size: clamp( 18pt, 3vh, 25pt);
         margin-left:20vw;
         margin-right:25vw;}
     @media (max-width:799px) {
         width:75vw;
-        font-size: 35pt;
-        margin-left:10vw;
-        margin-right:15vw;}
+        font-size: 30pt;
+        margin-left:5vw;
+        margin-right:10vw;}
     margin-top:10vh;
     margin-bottom:10vh;
 }
