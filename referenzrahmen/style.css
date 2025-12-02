@@ -6,16 +6,16 @@ body {
 }
 
 main {
-        width:55vw;
-        font-size: clamp( 18pt, 3vh, 25pt);
-        margin-left:20vw;
-        margin-right:25vw;
-    @media only screen and (hover:none) {
-        width: 85vw;
-        font-size: 25pt;
-        margin-left:5vw;
-        margin-right:10vw;}
-    margin-top:10vh;
+    width:55vw;
+    font-size: clamp(18pt, 1.7vmax, 25pt);
+    margin-left:20vw;
+    margin-right:25vw;
+    @media only screen and (hover:none) and (orientation:portrait){
+        width: 80vw;
+        font-size: clamp(14pt, 1.8vmax, 18pt);
+        margin-left:8vw;
+        margin-right:12vw;}
+    margin-top:8vh;
     margin-bottom:10vh;
 }
 
