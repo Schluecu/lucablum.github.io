@@ -7,12 +7,12 @@ body {
 
 main {
     width:55vw;
-    font-size: clamp(18pt, 1.7vmax, 25pt);
+    font-size: clamp(20pt, 1.9vmax, 28pt);
     margin-left:20vw;
     margin-right:25vw;
     @media only screen and (hover:none) and (orientation:portrait){
         width: 80vw;
-        font-size: clamp(25pt, 2.2vmax, 30pt);
+        font-size: clamp(28pt, 2.4vmax, 35pt);
         margin-left:8vw;
         margin-right:12vw;}
     margin-top:8vh;
