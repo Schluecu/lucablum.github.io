@@ -12,7 +12,7 @@ main {
     margin-right:25vw;
     @media only screen and (hover:none) and (orientation:portrait){
         width: 80vw;
-        font-size: clamp(14pt, 1.8vmax, 18pt);
+        font-size: clamp(25pt, 2.2vmax, 30pt);
         margin-left:8vw;
         margin-right:12vw;}
     margin-top:8vh;
