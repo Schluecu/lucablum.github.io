@@ -30,7 +30,6 @@ p {
     -webkit-hyphenate-limit-after: 6;
     -webkit-hyphenate-limit-before: 6;
     -webkit-hyphenate-limit-lines: 2;
-    textwrap: pretty;
 }
 
 .on {
