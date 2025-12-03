@@ -7,7 +7,7 @@ body {
 
 main {
     width:55vw;
-    font-size: clamp(20pt, 1.9vmax, 28pt);
+    font-size: clamp(20pt, 2vmax, 28pt);
     margin-left:20vw;
     margin-right:25vw;
     margin-top:10vh;
