@@ -25,6 +25,8 @@ img {
     position:absolute;
     right: -40vw;
     pointer-events: none;
+    @media only screen and (hover:none) and (orientation:portrait){
+    top: -100px;}
 }
 
 div {
