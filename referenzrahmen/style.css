@@ -23,9 +23,7 @@ main {
 img {
     width:70vw;
     position:absolute;
-    float: right;
-    right: -4vw;
-    bottom:100px;
+    right: -40vw;
     pointer-events: none;
 }
 
