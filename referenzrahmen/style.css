@@ -24,6 +24,7 @@ img {
     width:70vw;
     position:absolute;
     right: -40vw;
+    bottom: 235px;
     pointer-events: none;
 }
 
