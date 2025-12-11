@@ -24,8 +24,10 @@ img {
     width:70vw;
     position:absolute;
     right: 4vw;
-    vertical-algin: 100px;
     pointer-events: none;
+    @media only screen and (hover:none) and (orientation:portrait){
+    position:relativ;
+    vertical-align:100px;}
 }
 
 div {
