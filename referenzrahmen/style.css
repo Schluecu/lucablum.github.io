@@ -25,6 +25,7 @@ img {
     position:absolute;
     right: 4vw;
     pointer-events: none;
+    vertical-align: top;
 }
 
 div {
