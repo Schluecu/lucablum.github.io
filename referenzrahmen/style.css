@@ -1,0 +1,55 @@
+body {
+    user-select: none;
+    -webkit-user-select: none;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.3;
+}
+
+main {
+    width:55vw;
+    font-size: clamp(20pt, 2vmax, 28pt);
+    margin-left:20vw;
+    margin-right:25vw;
+    margin-top:10vh;
+    @media only screen and (hover:none) and (orientation:portrait){
+        width: 80vw;
+        font-size: clamp(28pt, 2.5vmax, 35pt);
+        margin-left:8vw;
+        margin-right:12vw;
+        margin-top:8vh;}
+    margin-bottom:10vh;
+}
+
+img {
+    width:70vw;
+    position:absolute;
+    right: -40vw;
+    bottom: 31.45vh;
+    pointer-events: none;
+}
+
+div {
+    display:inherit;
+    hyphens: auto;
+    -webkit-hyphenate-limit-after: 6;
+    -webkit-hyphenate-limit-before: 6;
+    -webkit-hyphenate-limit-lines: 2;
+}
+
+p {
+    margin:0;
+    margin-block-start:0;
+    margin-block-end:0;
+}
+
+.textrahmen {
+    display:block;
+    text-indent:6vw;
+}
+
+.on {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness:max(.2vmin, 1pt);
+    text-underline-offset: max(.4vmin, 1pt);
+}
