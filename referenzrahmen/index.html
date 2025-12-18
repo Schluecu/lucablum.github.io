@@ -6,8 +6,6 @@
     <title>Referenzrahmen</title>
     <link rel="stylesheet" href="style.css"></link>
     <link rel="icon" href="favicon.svg"></link>
-    <link rel="icon" href="favicon.ico"></link>
-    <link rel="icon" href="favicon.svg"></link>
     <script src="script.js"></script>
     <meta name="description" content="Das Projekt «Referenzrahmen» wurde im HS2025 im Rahmen des Major-Projekts im MA Art Education von Luca Blum konzipiert, geschrieben, auf- und umgesetzt. Für sämtliche Texte, den Hyptertext und die Bilder gilt: © Luca Blum, 2025.">
 </head>
@@ -449,7 +447,8 @@
                 </div></div>
             </div>
         </div>
-        <div class="textrahmen" id="teejesus">
+        <div class="textrahmen" id="teejesus" style="position:relative">
+            <img id="blanco" style="display:none; left:-43vw; bottom:43vh" src="images/Blanco.png"></img>
             <div id="teejesus0" style="display:none">
                 <br>Ich bin der <a class="off" id="0teejesus"
                     onclick="unlock('teejesus1'), lock('0teejesus'), load('1teejesus')">Teejesus</a>.<br><br>
@@ -491,7 +490,7 @@
 
                     Auf meinem Büchergestell liegen zwei trockene Rosen und die ältere riecht immer noch, wie <a
                         class="off" id="8teejesus"
-                        onclick="unlock('teejesus7'), lock('9teejesus'), lock('8teejesus'), load('11teejesus')">als ich
+                        onclick="unlock('teejesus7'), lock('9teejesus'), lock('8teejesus'), load('12teejesus')">als ich
                         sie
                         bekommen habe</a>.<br><br>
 
@@ -499,7 +498,8 @@
                         onclick="unlock('frederick0'), lock('8teejesus'), lock('9teejesus'), load('0frederick'), load('1frederick')">Handcrème
                         im&nbsp;Etui</a>.<br><br></p>
 
-                <p id="teejesus7" style="display:none">Julia Blanco hängt an meiner Lampe, aber nicht emotional, sondern
+                <p id="teejesus7" style="display:none"><a class="off" id="12teejesus"
+                        onclick="unlock('blanco'), lock('12teejesus'), load('11teejesus')">Julia Blanco</a> hängt an meiner Lampe, aber nicht emotional, sondern
                     physisch und im Frühjahr werde ich sie
                     eintopfen.<br><br>
                     Ralf fragte mich einmal, ob ich nie eine Jugend gehabt hätte und die Praktikantin daneben lachte.
