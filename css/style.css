@@ -20,8 +20,8 @@ body {
     -webkit-user-select: text;
     font-family: serif;
     font-family: "ABC Otto Variable Edu Regular";
-    @media (prefers-color-scheme: dark) {background-color:#333333;color:gainsboro;}
-    @media (prefers-color-scheme: light) {background-color:gainsboro;color:black;}
+    /*@media (prefers-color-scheme: dark) {background-color:#333333;color:gainsboro;}
+    @media (prefers-color-scheme: light) {*/background-color:gainsboro;color:black;/*}*/
 }
 
 .references {
@@ -32,8 +32,8 @@ body {
 
 nav {
     -webkit-user-select: none;
-    @media (prefers-color-scheme: dark) {-webkit-text-stroke-color: gainsboro;}
-    @media (prefers-color-scheme: light) {-webkit-text-stroke-color: black;}
+    /*@media (prefers-color-scheme: dark) {-webkit-text-stroke-color: gainsboro;}
+    @media (prefers-color-scheme: light) {*/-webkit-text-stroke-color: black;/*}*/
     -webkit-text-stroke-width: calc(3.5vmax/50);
     font-size: clamp(18pt, 3.5vmax, 3.5vw);
     line-height: .85;
@@ -62,8 +62,8 @@ spalte {min-width:250px;max-width:1000px;width:20vw;float:left;margin-bottom:2vm
 .bildspalte {min-width:250px;max-width:1000px;width:20vw;}
 
 textPath {
-    @media (prefers-color-scheme: dark) {fill: gainsboro;}
-    @media (prefers-color-scheme: light) {fill: black;};
+    /*@media (prefers-color-scheme: dark) {fill: gainsboro;}
+    @media (prefers-color-scheme: light) {*/fill: black;/*};*/
     font-family:ABC Otto Variable Edu Light Italic;
     font-size:1.6vmin;
     letter-spacing:.025vmin;
@@ -115,8 +115,8 @@ i {
 
 q {
     -webkit-text-stroke-width: 0;
-    @media (prefers-color-scheme: dark) {color:gainsboro;}
-    @media (prefers-color-scheme: light) {color:black;}
+    /*@media (prefers-color-scheme: dark) {color:gainsboro;}
+    @media (prefers-color-scheme: light) {*/color:black;/*}*/
     letter-spacing: .07vmax;
 }
 
@@ -133,18 +133,18 @@ q {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
-  @media (prefers-color-scheme: dark) {-webkit-text-stroke-color: gainsboro;}
-  @media (prefers-color-scheme: light) {-webkit-text-stroke-color: black;};
+  /*@media (prefers-color-scheme: dark) {-webkit-text-stroke-color: gainsboro;}
+  @media (prefers-color-scheme: light) {*/-webkit-text-stroke-color: black;/*};*/
 }
 
 #dot {
-    @media (prefers-color-scheme: dark) {color: gainsboro;-webkit-text-stroke-color: gainsboro;}
-    @media (prefers-color-scheme: light) {color: black;-webkit-text-stroke-color: black;};
+    /*@media (prefers-color-scheme: dark) {color: gainsboro;-webkit-text-stroke-color: gainsboro;}
+    @media (prefers-color-scheme: light) {*/color: black;-webkit-text-stroke-color: black;/*};*/
 }
 
 r {
-    @media (prefers-color-scheme: dark) {color: gainsboro;}
-    @media (prefers-color-scheme: light) {color: black;};
+    /*@media (prefers-color-scheme: dark) {color: gainsboro;}
+    @media (prefers-color-scheme: light) {*/color: black;/*};*/
 }
 
 /* Style navigation menu links */
@@ -168,8 +168,8 @@ r {
 
 /* Style the active link (or home/logo) */
 .active {
-    @media (prefers-color-scheme: dark) {color:gainsboro;}
-    @media (prefers-color-scheme: light) {color:black;}
+    /*@media (prefers-color-scheme: dark) {color:gainsboro;}
+    @media (prefers-color-scheme: light) {*/color:black;/*}*/
     -webkit-text-stroke-width: 0;
     font-size: clamp(18pt, 3.5vmax, 3.5vw);
 }
