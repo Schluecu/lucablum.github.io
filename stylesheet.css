@@ -1,0 +1,121 @@
+@font-face {
+    font-Family: Circuititalic;
+    src: url(./BT-Circuit-Medium-Italic-24.woff);
+}
+@font-face {
+    font-Family:Circuit;
+    src: url(./BT-Circuit-Medium.woff);
+}
+
+body {
+    font-family: Circuititalic;
+    user-select: none;
+}
+
+.bild {
+    display:inline;
+    width:10vw;
+}
+
+p {
+    font-size:2vw;
+    display:inline-block;
+    margin:0px;
+    margin-right:2vw;
+}
+
+.regular:hover {
+    font-family: Circuit;
+    cursor:vertical-text;
+}
+
+input {
+    border-color:black;
+    font-family:Circuititalic;
+    font-size:2vw;
+    field-sizing:content;
+    max-width:100vw;
+    padding-left:.5vw;
+    padding-right:1vw;
+}
+
+input:hover{
+    cursor:text;
+}
+
+.bild:hover {
+    cursor:zoom-in;
+}
+
+.grid {
+    height: auto;
+    display:inline-flex;
+    flex-wrap:wrap;
+}
+
+.grid2 {
+    display: flex;
+    flex-flow:row wrap;
+    flex-wrap: nowrap;
+    overflow:scroll;
+}
+
+.grafie {
+    padding-bottom:20vh;
+}
+
+[id^=bild] {
+    display:none;
+}
+
+[id^=bild]:checked + label > img {
+    width:60vw;
+    height:auto;
+    object-fit:fill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:zoom-out;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+} 
+
+#impressum:hover {
+    cursor:help;
+}
+
+#desc {
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    left:0;
+    top:0;
+    justify-content: center;
+    overflow:scroll;
+}
+
+#desc:hover {
+    cursor:url(./img/tape.png),cell;
+}
+
+#imp {
+    margin-top:12vh;
+    text-align:center;
+    position:relative;
+    background-color:white;
+    padding:2vw;
+    width:fit-content;
+    height:fit-content;
+    max-width:30vw;
+    border-radius:1vw;
+    filter: drop-shadow(0 0 .7vw black);
+}
+
+#close {
+    position:absolute;
+    top:-.2vw; right:-.2vw;
+    font-size:1vw;
+}
