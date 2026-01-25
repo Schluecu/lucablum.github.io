@@ -110,6 +110,8 @@ input:hover{
     width:fit-content;
     height:fit-content;
     max-width:30vw;
+    @media only screen and (hover:none) and (orientation:portrait){
+        max-width:80vw}
     border-radius:1vw;
     filter: drop-shadow(0 0 .7vw black);
 }
