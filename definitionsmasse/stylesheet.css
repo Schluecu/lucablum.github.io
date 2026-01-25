@@ -114,6 +114,7 @@ input:hover{
         max-width:80vw}
     border-radius:1vw;
     filter: drop-shadow(0 0 .7vw black);
+    overflow:scroll;
 }
 
 #close {
