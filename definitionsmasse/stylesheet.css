@@ -111,7 +111,7 @@ input:hover {
 }
 
 #imp:hover {
-    cursor: url(./img/tape.png), cell;
+    cursor: url(./img/tape.png) 23 23, cell;
 }
 
 #imp {
