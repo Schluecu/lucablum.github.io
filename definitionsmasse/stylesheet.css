@@ -110,6 +110,10 @@ input:hover {
     overflow: scroll;
 }
 
+#desc:hover {
+    cursor: pointer;
+}
+
 #imp:hover {
     cursor: url(./img/tape.png) 23 23, cell;
 }
