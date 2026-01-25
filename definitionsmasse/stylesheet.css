@@ -10,6 +10,7 @@
 
 body {
     font-family: Circuititalic;
+    line-height:2.7vh;
     user-select: none;
 }
 
@@ -31,14 +32,25 @@ p {
 }
 
 input {
-    border-color: black;
+    border:none;
+    color:black;
     font-family: Circuititalic;
-    font-size: 2vw;
+    font-size: 3vh;
+    text-indent:.5vw;
     field-sizing: content;
     max-width: 100vw;
-    padding-left: .5vw;
     padding-right: 1vw;
 }
+
+input::placeholder {
+    color:black;
+}
+
+input::target-text {
+    padding-left:.5vw;
+}
+
+*:focus {outline:none}
 
 input:hover {
     cursor: text;
@@ -98,7 +110,7 @@ input:hover {
     overflow: scroll;
 }
 
-#desc:hover {
+#imp:hover {
     cursor: url(./img/tape.png), cell;
 }
 
