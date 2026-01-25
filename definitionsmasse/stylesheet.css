@@ -111,7 +111,7 @@ input:hover {
 }
 
 #desc:hover {
-    cursor: pointer;
+    cursor: url(./img/tape_red.png) 23 23, pointer;
 }
 
 #imp:hover {
