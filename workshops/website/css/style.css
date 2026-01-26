@@ -12,6 +12,11 @@ main {
     padding-top:max(50px,8vh);
     margin-left:10vw;
     width:60vw;
+    @media only screen and (orientation:portrait) {
+        padding-top:10vh;
+        margin-left:5vw;
+        width:85vw;
+    }
 }
 
 p {
