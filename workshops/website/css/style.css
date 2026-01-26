@@ -88,12 +88,16 @@ code {
     border-radius:5vw;
 }
 
-#back:hover {
+.slow {
     cursor:pointer;
     animation-name:rund;
-    animation-duration:.9s;
+    animation-duration:3s;
     animation-timing-function:linear;
     animation-iteration-count: infinite;
+}
+
+#back:hover {
+    animation-duration:.9s;
 }
 
 #logo {
