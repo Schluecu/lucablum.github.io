@@ -102,7 +102,7 @@ code {
 }
 
 #logo {
-    cursor:grabbing;
+    cursor:none;
     animation-name:rund;
     animation-duration:1.2s;
     animation-timing-function:linear;
