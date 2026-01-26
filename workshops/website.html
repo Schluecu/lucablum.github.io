@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./resources/favicon.ico"rel="icon">
+    <script src="./js/script.js"></script>
+    <title>Website-Workshop</title>
+    <meta name="description" content="Website-Workshop für den Talentbereich «Gestaltung & Kunst» an der KSSCH Anfang Februar 2026.">
+    <meta property="og:image" content="./resources/favicon.ico"/>
+</head>
+
+<body>
+    <img id="favicon" src="./resources/favicon-empty.png" href="#favicon"></img>
+    <img id="favicon" style="animation:none;pointer-events:none" src="./resources/favicon-light.png"></img>
+    <nav id="navigation">
+        <a class="navelement" href="#basics">basics</a><br>
+        <a class="navelement" href="#resources">ressourcen</a><br>
+        <a class="navelement" href="#hosting">hosting</a><br>
+        <a class="navelement" href="#dynamisch">dynamisch</a><br>
+        <a class="navelement" href="#cargo">cargo</a><br>
+        <a class="navelement" href="#beispiele">beispiele</a>
+    </nav>
+    <main>
+        <p id="basics" >Grundsätzlich setzen sich alle Webseiten aus <code>HTML</code>, <code>CSS</code> und <code>JavaScript</code> zusammen.<br><br>
+
+        <p>In <code>HTML</code> (HyperText Markup Language) ist die Struktur der Seite notiert, es wird angegeben, was welches Element ist und unsichtbare Funktionen zugewiesen.</p>
+        <p>&emsp;&emsp;Mit <code>CSS</code> (Cascading Style Sheet) wird das Aussehen aller Elemente und wie sie sich zueinander verhalten festgelegt. Sowohl Farben, Grösse und gewisse Animationen werden hier festgelegt.</p>
+        <p>&emsp;&emsp;<code>JavaScript</code> (kurz <code>JS</code>) sich Dinge verändern können. Mit <code>JS</code>-Funktionen können Eingriffe in die <code>HTML</code>-Struktur und die <code>CSS</code>-Attribute vorgenommen werden.</p>
+        <p>&emsp;&emsp;Eine Webseite ist grundsäzlich nichts anderes, als ein Ordner mit verschiedenen Textdokumenten, die einem gewissen Standard folgen, um von Programmen, die wir
+        ‹Browser› nennen, gelesen werden zu können. Im <code>HTML</code>-Dokument werden die anderen Elemente angesteuert, auch Bilder, Videos, externe Links können eingebettet werden.</p>
+        <p>&emsp;&emsp;Um eine Webseite von Grund auf selber zu entwickeln, ist der Code-Editor <i><a href="https://code.visualstudio.com" target="_blank">Visual Studio Code</a></i> gut
+        geeignet. Dieser kann nach eigenem Gutdünken mit Extensions aufgerüstet werden, beispielsweise mit einer Live-Preview, durch
+        die der aktuelle Stand der Webseite in Echtzeit angeschaut werden kann. Auch der <i>GitHub Copilot</i>, eine für Coding trainierte
+        KI-Assistenz ist auf <i>VSCode</i> installierbar (also kein ständiges hin- und herkopieren zu <i>ChatGPT</i> und riesen Ressourcen-Verbrauch durch ständige externe Online-Anfragen).</p>
+        <br>
+        <p id="resources" >Als Nachschlagewerk, aber auch für das Erarbeiten der Grundlagen ist die <i><a href="https://developer.mozilla.org/en-US/docs/Web/" target="_blank">MDN-Dokumentation</a></i>
+        eine tolle Ressource. Oft ist aber einen einfache Google-Suche schon genug, um ein Forum (bestes Beispiel <i><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a></i>) zu finden, wo genau die Frage schon behandelt wird.
+        Natürlich ist wie oben erwähnt der KI-Agent <i>Copilot</i> für Code-Arbeiten super geeignet, da aber ein eigenes Grundverständnis mitzubringen ist auch nicht schlecht.
+        Und ausserdem ist überschaubarer Code super, wenn man immer wieder unabhängig etwas an der Seite arbeiten will.</p>
+        <br>
+        <p id="hosting" > Damit die Webseite im Internet zugänglich ist, muss dieser oben erwähnte Ordner ‹gehosted› werden. Dafür gibt es viele Möglichkeiten.
+        Einer der Standards ist <i><a href="https://github.com" target="_blank">GitHub</a></i>. Hier können alle möglichen von Code-Sammlungen bewirtschaftet werden. Es gibt
+        auch eine integrierte Funktion, die aus den hochgeladenen Dateien eine Webseite zusammenstellt, welche sogar mit einer eigenen Domain verknüpft werden kann.
+        Portale, um so eine Domain zu erlangen wären beispielweise <i><a href="https://www.infomaniak.com/de">Infomaniak</a></i> und
+        <i><a href="https://www.hostpoint.ch">Hostpoint</a></i>.</p>
+        <br>
+        <p id="dynamisch" > Dynamisch nennt man solche Webseiten, deren Gerüst steht, deren Inhalt aber über ein externes Tool (Backend) befüllt werden kann.
+        Dafür wird beispielsweise ein <i>CMS</i> (content management system) aufgesetzt. Dafür gibt es zahllose Anbieter. Bei externen Services ist es aber angebracht, genau
+        hinzuschauen. Grosse, multinationale Anbieter sind oft datenschutztechnisch fragwürdig, während lokale Lösungen eher vorzuziehen (siehe oben) sind.</p>
+        <br>
+        <p id="cargo" ><i><a href="https://cargo.site" target="_blank">Cargo</a></i> ist ein Tool, das mit einem Baukastenprinzip zulässt, Seiten mit gestalterischem Anspruch
+        zusammenzustellen. Hier braucht es an sich keine Programmierfertigkeiten. Für Schüler:innen und Studis ist das Tool sogar gratis.</p>
+        <br>
+        <p id="beispiele" ><i>Beispiele:</i><br>
+            <a href="https://lucablum.ch/index.html" target="_blank">Luca&nbsp;Blum</a> (<code>HTML</code>, <code>CSS</code>, <code>JS</code>, <i>GitHub</i>&thinsp;&&thinsp;<i>Infomaniak</i>),
+            <a href="https://leaneuen.ch/de/" target="_blank">Lea&nbsp;Neuenschwander</a> (aufgesetzt über ein <i>CMS</i>), 
+            <a href="https://selenmer.com" target="_blank">Selen&nbsp;Meric</a> (<i>Cargo</i>), 
+            <a href="https://lucablum.ch/referenzrahmen/index.html" target="_blank">Referenzrahmen</a> (Hypertextumsetzung),
+            <a href="https://endless.horse" target="_blank">Endless&nbsp;Horse</a> (dynamische ASCII-Art).
+        </p>
+    </main>
+</body>
 
