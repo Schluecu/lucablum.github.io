@@ -1,3 +1,4 @@
+
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size:max(12pt,1.3vw);
@@ -69,17 +70,36 @@ code {
     content:" •";
 }
 
-#favicon {
+.favicon {
     position:fixed;
     width:4vw;
     min-width:40px;
     border-radius:5vw;
 }
 
-#favicon:hover {
+#light {
+    pointer-events:none;
+}
+
+#back {
+    position:fixed;
+    width:4vw;
+    min-width:40px;
+    border-radius:5vw;
+}
+
+#back:hover {
     cursor:pointer;
     animation-name:rund;
     animation-duration:.9s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+
+#logo {
+    cursor:grabbing;
+    animation-name:rund;
+    animation-duration:1.2s;
     animation-timing-function:linear;
     animation-iteration-count: infinite;
 }
