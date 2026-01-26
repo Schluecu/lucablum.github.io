@@ -1,1 +1,85 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:max(12pt,1.3vw);
+    text-align:justify;
+    hyphens:auto;
+    margin-left:8vw;
+    margin-top:8vh;
+    margin-bottom:15vh;
+}
 
+main {
+    padding-top:max(50px,8vh);
+    margin-left:10vw;
+    width:60vw;
+}
+
+p {
+    margin-block-end:0;
+    margin-block-start:0;
+    user-select: none;
+    -webkit-user-select:none;
+}
+
+a {
+    color:inherit;
+    text-decoration:none;
+    text-decoration:underline;
+    text-underline-offset:.15vw;
+}
+
+a:hover {color:mediumvioletred}
+
+i {
+    hyphens:none;
+}
+
+code {
+    font-size:max(10pt,1.1vw);
+    font-family:monospace;
+    user-select:text;
+    -webkit-user-select:text;
+    background-color:gainsboro;
+    padding-left:.3vw;
+    padding-right:.3vw;
+}
+
+#navigation {
+    text-align:right;
+    position:fixed;
+    right:5vw;
+    bottom:5vw;
+}
+
+.navelement {
+    text-decoration:none;
+    background-color:white;
+    padding-left:.7vw;
+}
+
+.navelement::after {
+    color:rgba(0,0,0,0);
+    -webkit-text-stroke-color:black;
+    -webkit-text-stroke-width:max(2px,.13vw);
+    content:" •";
+}
+
+#favicon {
+    position:fixed;
+    width:4vw;
+    min-width:40px;
+    border-radius:5vw;
+}
+
+#favicon:hover {
+    cursor:pointer;
+    animation-name:rund;
+    animation-duration:.9s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rund {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
