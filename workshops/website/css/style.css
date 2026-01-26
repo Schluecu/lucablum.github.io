@@ -16,7 +16,7 @@ main {
     @media only screen and (orientation:portrait) {
         padding-top:10vh;
         margin-left:3vw;
-        width:85vw;
+        width:80vw;
         text-align:left;
     }
 }
