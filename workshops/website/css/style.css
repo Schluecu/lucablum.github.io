@@ -21,6 +21,17 @@ main {
     }
 }
 
+#mainglossar {
+    width:50vw;
+    @media only screen and (orientation:portrait) {
+        padding-top:10vh;
+        margin-left:5vw;
+        width:70vw;
+        text-align:left;
+    }
+}
+    
+
 p {
     margin-block-end:0;
     margin-block-start:0;
