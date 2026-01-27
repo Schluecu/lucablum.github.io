@@ -16,10 +16,54 @@
     <a href="./index.html" target="_self"><img class="favicon slow" id="back" draggable="false" src="./resources/favicon-empty.png"></img>
     <img class="favicon" id="light" src="./resources/favicon-light.png"></img></a>
     <nav id="navigation">
-        <a class="navelement" href="#anfang">anfang</a><br>
+        <a class="navelement" href="#grundstruktur">Grundstruktur</a><br>
+        <a class="navelement" href="#favicon">Favicon</a><br>
+        <a class="navelement" href="#responsivedesign">Responsive Design</a><br>
+        <a class="navelement" href="#seo">SEO</a><br>
     </nav>
     <main style="width:50vw;">
-        <p id="anfang"></p><br>
-        <p id=""></p><br>
+        <p id="grundstruktur"><i>Grundstruktur</i><br><br>
+        Eine typische Grundstruktur einer <code>HTML</code>-Seite könnte in etwa so aussehen:<br><br>
+        <code>&lt;!DOCTYPE html><br>&lt;html lang="de"></code><br><br>
+        Die erste Zeile lässt den Browser wissen, dass alles folgende als <code>HTML</code> interpetiert werden muss. Mit der zweiten Zeile wird die vorherrschende
+        Sprache der Website fest (<i>de</i> heisst Deutsch, siehe <a href="https://www.w3schools.com/tags/ref_language_codes.asp" target="_blank">hier</a> für die Sprachkürzel). Das ist nicht zwingend, kann aber für die automatische Übersetzung von Texten im Browser helfen.<br><br>
+    <code>&lt;head>
+    &lt;meta charset="UTF-8"><br>
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"><br>
+    &lt;title>...&lt;/title><br>
+    &lt;meta name="description" content="..."><br>
+    &lt;meta property="og:image" content="..."/><br>
+    &lt;/head></code><br><br> Im <code>head</code>-Element werden weitere Informationen für die User unsichtbar hinterlegt. Die ersten zwei Zeilen können ohne Umschweife
+    genau so übernommen werden. In der <code>title</code>-Zeile lässt sich die Webseite benennen, dieser Name wird auch im Browser angezeigt. <code>meta</code>-Attribute
+    gibt es viele, sie füttern Suchmaschinen und andere maschinelle Verarbeitung mit Informationen zur Seite&thinsp;–&thinsp;zum Beispiel eine eigene Beschreibung
+    oder ein Symbolbild&thinsp;–&thinsp;was wichtig sein kann für die <a href="#seo">SEO</a>.<br><br>
+    <code> &lt;link href="..." rel="stylesheet" /><br>
+    &lt;link href="..."rel="icon"><br>
+    &lt;script src="...">&lt;/script></code><br><br>Auch im <code>head</code>-Element können <code>CSS</code>-Stylesheets, ein <a href="#favicon">Favicon</a> und <code>JS</code>-Scripts hinterlegt werden.
+    <br><br>
+    Im <code>body</code>-Element befinden sich alle Elemente, die im Browser angezeigt werden sollen. Als allgemeines Strukturierungs-Element dienen <code>div</code>-Elemente,
+    die mit <code>class</code>- und <code>id</code>-Zuweisungen aus einem <code>CSS</code>-Stylesheet angesteuert werden können.<br><br>
+    Weitere wichtige vordefinierte Element-Tags sind <code>&lt;p>&lt;/p></code> für ein Textabsatz, <code>&lt;i>&lt;/i></code> für kursiv, <code>&lt;b>&lt;/b></code> für bold, <code>&lt;a></code> für Links.
+    Hier kann mit <code>href</code> der Zielort und mit <code>target</code> die Art der Weiterleitung bestimmt werden. Zum Beispiel: <code>&lt;a href="https://ksschuepfheim.lu.ch" target="_blank">
+    Hier geht's zur Webseite der Kantonsschule Schüpfheim.&lt;/a></code>. Für Bilder steht <code>&lt;img>&lt;/img></code>, hier werden Infos mit <code>src</code> und gegebenenfalls <code>alt</code>
+    hinzugefügt. Source verweist per Link auf den Standort der Bilddatei, während ein Alt-Text für Suchmaschinen und Accessibility-Tools wichtig sein kann (<a href="#seo">SEO</a>).
+</p><br><br><br>
+
+    <p id="favicon"><i>Favicon</i><br><br>Das Favicon wird in den meisten Browsern als kleines Erkennungszeichen entweder im Browserfenster selbst, oder beispielsweise
+        in den Lesezeichen angezeigt. Auch dieses Detail trägt zur Identität der Seite bei und kann im <code>head</code>-Element als .jpg, .png, .svg, oder als eigene
+        Icon-Datei&thinsp;–&thinsp;.ico&thinsp;–&thinsp;hinterlegt werden.</p><br><br><br>
+        
+    <p id="responsivedesign"><i>Responsive Design</i><br><br>
+        Um eine angenehme Darstellung sowohl auf Bildschirmen von Laptops und PCs, wie auch auf Smartphones zu gewährleisten, kann mit sogenannten <code>@media-queries</code>
+        Parameter des Endgeräts abgefragt werden. Beispielsweise die Pixeldimensionen des Bildschirms, oder ob er im Hoch- oder Querformat ausgerichtet ist. Eine
+        Möglichkeit um css-Variablen für Smarthpones zu definieren ist zum Beispiel: <code>@media only screen and (orientation:portrait) {...}</code> oder
+        <code>@media only screen and (orientation:portrait) and (hover:none) {...}</code>.
+        Vgl. auch <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries" target="_blank">hier</a>.</p><br><br><br>
+        
+        <p id="seo"><i>SEO</i><br><br>Kurz für <i>Search Engine Optimisation</i> ist SEO dann wichtig, wenn eine Seite auf Suchmaschinen erscheinen soll. Sehr viele
+        Faktoren spielen hier hinein, auch da alle Suchalgorithmen nach eigenen Gewichtungen und Logiken vorgehen. Sinnvolle <code>meta</code>-Elemente im <code>head</code>,
+        <code>alt</code>-Beschreibungen auf Bildern und sogar sinnvolle Dateinamen können schon einen sehr grossen Unterschied machen. Externe Anbieter mit Baukasten-Prinzip
+        haben oft eigene Bereiche, um diese Optimierung im jeweiligen System vorzunehmen.</p><br><br><br>
+        <p id=""><i></i><br><br></p><br><br><br>
     </main>
 </body>
