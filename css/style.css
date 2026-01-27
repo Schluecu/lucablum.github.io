@@ -96,6 +96,7 @@ textPath {
 }
 
 a {
+    color:inherit;
     font-family: "ABC Otto Variable Edu Medium Italic";
 }
 
