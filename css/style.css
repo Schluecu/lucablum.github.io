@@ -24,6 +24,14 @@ body {
     @media (prefers-color-scheme: light) {*/background-color:gainsboro;color:black;/*}*/
 }
 
+.closed {
+    height:0;
+}
+
+.opened {
+    height:auto;
+}
+
 .references {
     background-color:gainsboro;
     color:black;
@@ -47,6 +55,7 @@ main {
 
 .desc {
     font-size: clamp(10pt, 1.1vmax, 1.1vw);
+    transition: all 1s;
 }
 
 .unopened {
