@@ -30,7 +30,7 @@ body {
 
 .opened {
     height:auto;
-    transition: all 1s;
+    transition: all .7s;
 }
 
 .references {
