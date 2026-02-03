@@ -19,15 +19,15 @@ function openDesc(theid) {
   if (x.classList.contains("closed")) {
     x.classList.remove("closed");
     x.animate(
-      [{ height: "0px", visibility: "hidden"},
-       { height: fullHeight, visibility: "visible"}],
+      [{ height: "0px"},
+       { height: fullHeight}],
       {duration: 200, fill:"forwards"}
     ).onfinish = () => x.classList.add("opened");
   } else {
     x.classList.remove("opened");
     x.animate(
-      [{height: fullHeight, visibility: "visible"},
-       {height: "0px", visibility: "hidden"}],
+      [{height: fullHeight},
+       {height: "0px"}],
       {duration: 200, fill:"forwards"}
     ).onfinish = () => x.classList.add("closed");
   }
