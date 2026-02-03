@@ -16,20 +16,19 @@ function myFunction() {
 function openDesc(theid) {
   const x = document.getElementById(theid);
   const fullHeight = x.scrollHeight + "px";
-
   if (x.classList.contains("closed")) {
     x.classList.remove("closed");
     x.animate(
-      [{ height: "0px", opacity: 0 },
-       { height: fullHeight, opacity: 1 }],
-      { duration: 500, fill: "forwards" }
+      [{ height: "0px", visibility: "hidden"},
+       { height: fullHeight, visibility: "visible"}],
+      {duration: 200, fill:"forwards"}
     ).onfinish = () => x.classList.add("opened");
   } else {
     x.classList.remove("opened");
     x.animate(
-      [{ height: fullHeight, opacity: 1 },
-       { height: "0px", opacity: 0 }],
-      { duration: 500, fill: "forwards" }
+      [{height: fullHeight, visibility: "visible"},
+       {height: "0px", visibility: "hidden"}],
+      {duration: 200, fill:"forwards"}
     ).onfinish = () => x.classList.add("closed");
   }
 }
