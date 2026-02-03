@@ -16,13 +16,19 @@ function myFunction() {
 function openDesc(theid) {
   var x = document.getElementById(theid);
   if (x.classList.contains('closed')) {
-    x.classList.remove('closed');x.style="visibility:visible;";
+    x.classList.remove('closed');
+    x.animate(
+      [ { height: "0", visibility:hidden, },
+        { height: "auto", visibility:visible, }],
+        { duration: 500});
     x.classList.add('opened');}
-    console.log(x.offsetHeight);
   else {
-    x.classList.remove('opened');x.style="visibility:hidden;";
+    x.classList.remove('opened');
+    x.animate(
+      [ { height: "auto", visibility:visibile, },
+        { height: "0", visibility:hidden, }],
+        { duration: 500});
     x.classList.add('closed');}}
-    console.log(x.offsetHeight);
 
 function openalt(theid) {
   var x = document.getElementById(theid);
