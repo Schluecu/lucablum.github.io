@@ -23,12 +23,11 @@ function openDesc(theid) {
        {transform:"scaleY(1)"}],
       {duration: 200, fill:"forwards"})
   } else {
-    x.classList.remove("opened");
     x.animate(
       [{transform:"scaleY(1)"},
        {transform:"scaleY(0)"}],
       {duration: 200, fill:"forwards"}
-    ).onfinish = () => x.classList.add("closed");
+    ).onfinish = () => x.classList.remove("opened"); x.classList.add("closed");
   }
 }
 
