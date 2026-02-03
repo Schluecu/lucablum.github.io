@@ -113,6 +113,8 @@ a {
 
 r {
     font-family: "ABC Otto Variable Edu Regular";
+    user-select:none;
+    -webkit-user-select:none;
 }
 
 r:hover {
