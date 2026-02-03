@@ -14,21 +14,25 @@ function myFunction() {
 }
 
 function openDesc(theid) {
-  var x = document.getElementById(theid);
-  if (x.classList.contains('closed')) {
-    x.classList.remove('closed');
+  const x = document.getElementById(theid);
+  const fullHeight = x.scrollHeight + "px";
+
+  if (x.classList.contains("closed")) {
+    x.classList.remove("closed");
     x.animate(
-      [ { height: "0", visibility:hidden, },
-        { height: "auto", visibility:visible, }],
-        { duration: 500});
-    x.classList.add('opened');}
-  else {
-    x.classList.remove('opened');
+      [{ height: "0px", opacity: 0 },
+       { height: fullHeight, opacity: 1 }],
+      { duration: 500, fill: "forwards" }
+    ).onfinish = () => x.classList.add("opened");
+  } else {
+    x.classList.remove("opened");
     x.animate(
-      [ { height: "auto", visibility:visibile, },
-        { height: "0", visibility:hidden, }],
-        { duration: 500});
-    x.classList.add('closed');}}
+      [{ height: fullHeight, opacity: 1 },
+       { height: "0px", opacity: 0 }],
+      { duration: 500, fill: "forwards" }
+    ).onfinish = () => x.classList.add("closed");
+  }
+}
 
 function openalt(theid) {
   var x = document.getElementById(theid);
