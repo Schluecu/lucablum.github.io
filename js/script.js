@@ -16,7 +16,7 @@ function myFunction() {
 function openDesc(theid) {
   var x = document.getElementById(theid);
   if (x.classList.contains('closed')) {x.classList.add('opened');x.classList.remove('closed');x.style="visibility:visible;";}
-  else {x.classList.add('closed');x.classList.remove('opened');x.style="visibility:none;";}}
+  else {x.classList.add('closed');x.classList.remove('opened');x.style="visibility:hidden;";}}
 
 function openalt(theid) {
   var x = document.getElementById(theid);
