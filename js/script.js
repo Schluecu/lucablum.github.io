@@ -20,14 +20,14 @@ function openDesc(theid) {
     x.classList.remove("closed");
     x.classList.add("opened");
     x.animate(
-      [{ height: "0px"; transform:scaleY(0)},
-       { height: fullHeight; transform:scaleY(1)}],
+      [{ height: "0px"; transform:"scaleY(0)"},
+       { height: fullHeight; transform:"scaleY(1)"}],
       {duration: 200, fill:"forwards"})
   } else {
     x.classList.remove("opened");
     x.animate(
-      [{height: fullHeight; transform:scaleY(1)},
-       {height: "0px"; transform:scaleY(0)}],
+      [{height: fullHeight; transform:"scaleY(1)"},
+       {height: "0px"; transform:"scaleY(0)"}],
       {duration: 200, fill:"forwards"}
     ).onfinish = () => x.classList.add("closed");
   }
