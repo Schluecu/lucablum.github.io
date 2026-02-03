@@ -15,8 +15,14 @@ function myFunction() {
 
 function openDesc(theid) {
   var x = document.getElementById(theid);
-  if (x.classList.contains('closed')) {x.classList.add('opened');x.classList.remove('closed');x.style="visibility:visible;";}
-  else {x.classList.add('closed');x.classList.remove('opened');x.style="visibility:hidden;";}}
+  if (x.classList.contains('closed')) {
+    x.classList.remove('closed');x.style="visibility:visible;";
+    console.log(x.offsetHeight);
+    x.classList.add('opened');}
+  else {
+    x.classList.remove('opened');x.style="visibility:hidden;";
+    console.log(x.offsetHeight);
+    x.classList.add('closed');}}
 
 function openalt(theid) {
   var x = document.getElementById(theid);
