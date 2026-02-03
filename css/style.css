@@ -24,15 +24,6 @@ body {
     @media (prefers-color-scheme: light) {*/background-color:gainsboro;color:black;/*}*/
 }
 
-.closed {
-    height:0;
-    visibility:hidden;
-}
-
-.opened {
-    visibility:visible;
-}
-
 .references {
     background-color:gainsboro;
     color:black;
@@ -56,6 +47,16 @@ main {
 
 .desc {
     font-size: clamp(10pt, 1.1vmax, 1.1vw);
+    visibility:hidden;
+}
+
+.closed {
+    height:0;
+    visibility:hidden;
+}
+
+.opened {
+    visibility:visible;
 }
 
 .unopened {
