@@ -17,12 +17,12 @@ function openDesc(theid) {
   var x = document.getElementById(theid);
   if (x.classList.contains('closed')) {
     x.classList.remove('closed');x.style="visibility:visible;";
-    console.log(x.offsetHeight);
     x.classList.add('opened');}
+    console.log(x.offsetHeight);
   else {
     x.classList.remove('opened');x.style="visibility:hidden;";
-    console.log(x.offsetHeight);
     x.classList.add('closed');}}
+    console.log(x.offsetHeight);
 
 function openalt(theid) {
   var x = document.getElementById(theid);
