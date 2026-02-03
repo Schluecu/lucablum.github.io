@@ -25,6 +25,7 @@ body {
 }
 
 .closed {
+    height:0;
     visibility:hidden;
 }
 
