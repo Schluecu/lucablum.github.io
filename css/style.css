@@ -25,13 +25,11 @@ body {
 }
 
 .closed {
-    height:0;
-    transition: height 2s;
+    visibility:hidden;
 }
 
 .opened {
-    height:auto;
-    transition: height 2s;
+    visibility:visible;
 }
 
 .references {
