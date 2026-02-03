@@ -48,6 +48,7 @@ main {
 .desc {
     font-size: clamp(10pt, 1.1vmax, 1.1vw);
     visibility:hidden;
+    transform-origin: top;
 }
 
 .closed {
