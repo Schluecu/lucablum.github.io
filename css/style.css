@@ -45,6 +45,11 @@ main {
     line-height: 1.3;
 }
 
+.projektwrapper {
+    position:block;
+    height:fit-content;
+}
+
 .projektrahmen {
     height:fit-content;
     position:relative;
