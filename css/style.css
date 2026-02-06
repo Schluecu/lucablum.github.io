@@ -30,6 +30,10 @@ body {
     font-family:Arial;
 }
 
+end {
+    color:none;
+}
+
 nav {
     -webkit-user-select: none;
     /*@media (prefers-color-scheme: dark) {-webkit-text-stroke-color: gainsboro;}
