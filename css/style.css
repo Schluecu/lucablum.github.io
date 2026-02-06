@@ -45,6 +45,15 @@ main {
     line-height: 1.3;
 }
 
+.projektrahmen {
+    position:relative;
+}
+
+.projektinhalt {
+    position:absolute;
+    top:50%;
+}
+
 .desc {
     font-size: clamp(10pt, 1.1vmax, 1.1vw);
     visibility:hidden;
