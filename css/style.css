@@ -45,6 +45,10 @@ main {
     line-height: 1.3;
 }
 
+projekttitel:hover {
+    color:gainsboro;
+}
+
 .projekttitel:has(>p.closed) {
     background-image: var(--img);
     background-size: 100% 100%;
