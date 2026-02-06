@@ -15,7 +15,6 @@ function myFunction() {
 
 function openDesc(theid) {
   const x = document.getElementById(theid);
-  const y = document.getElementById(theid+"_preview");
   if (x.classList.contains("closed")) {
     x.classList.remove("closed");
     x.classList.add("opened");
