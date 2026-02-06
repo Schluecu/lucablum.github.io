@@ -60,7 +60,7 @@ main {
 }
 
 .projektinhalt {
-    transition: top .2s;
+    transition: top .1s;
     position:absolute;
 }
 
