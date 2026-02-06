@@ -53,7 +53,7 @@ main {
 }
 
 .projekttitel:has(+p.closed):hover {
-    color:transparent;
+    color:rgba(0,0,0,.4);
     background-clip:text;
 }
 
