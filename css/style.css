@@ -49,7 +49,7 @@ projekttitel:hover {
     color:gainsboro;
 }
 
-.projekttitel:has(>p.closed) {
+.projekttitel:has(+p.closed) {
     background-image: var(--img);
     background-size: 100% 100%;
     background-position: center;
