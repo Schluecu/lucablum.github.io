@@ -46,7 +46,8 @@ main {
 }
 
 .preview {
-    height:clamp(10pt, 1.1vmax, 1.1vw);
+    height:1.5vmax;
+    position:absolute;
     object-fit:fill;
 }
 
