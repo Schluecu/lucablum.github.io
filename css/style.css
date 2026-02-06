@@ -46,6 +46,7 @@ main {
 }
 
 .projektrahmen {
+    height:fit-content;
     position:relative;
 }
 
