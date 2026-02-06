@@ -51,6 +51,7 @@ main {
 }
 
 .projektinhalt {
+    transition: top .5s;
     position:absolute;
 }
 
