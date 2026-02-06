@@ -46,7 +46,7 @@ main {
 }
 
 .projekttitel {
-    background-image: " (source: " attr(img) ") ";
+    background-image: var(--img);
     background-size: 100% 100%;
     background-position: center;
 }
