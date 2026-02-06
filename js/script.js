@@ -15,9 +15,17 @@ function myFunction() {
 
 function openDesc(theid) {
   const x = document.getElementById(theid);
+  const y = document.getElementById(theid+"_preview");
   if (x.classList.contains("closed")) {
     x.classList.remove("closed");
     x.classList.add("opened");
+
+    y.animate(
+    [{opacity:"1"},
+     {opacity:"0"}],
+     {duration:50}
+    ).onfinish = () => y.style.visibility="hidden";
+    
     x.animate(
       [{transform:"scaleY(0)"},
        {transform:"scaleY(1)"}],
@@ -28,6 +36,12 @@ function openDesc(theid) {
        {transform:"scaleY(0)"}],
       {duration: 120}
     ).onfinish = () => x.classList.remove("opened"); x.classList.add("closed");
+    
+    y.style.visibility="visible";
+    y.animate(
+    [{opacity:"0"},
+     {opacity:"1"}],
+     {duration:50})
   }
 }
 
