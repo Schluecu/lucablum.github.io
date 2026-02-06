@@ -51,7 +51,14 @@ main {
 
 .projektinhalt {
     position:absolute;
+}
+
+.projektinhalt:has(>p.closed) {
     top:50%;
+}
+
+.projektinhalt:has(>p.opened) {
+    top:0%;
 }
 
 .desc {
