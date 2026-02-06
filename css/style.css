@@ -49,6 +49,7 @@ main {
     height:1.5vmax;
     position:absolute;
     object-fit:fill;
+    z-index:-1;
 }
 
 .desc {
