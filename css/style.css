@@ -52,6 +52,7 @@ main {
     color:gainsboro;
     padding:3.5vmax;
     margin:-3.5vmax;
+    z-index:-1;
 }
 
 .desc {
