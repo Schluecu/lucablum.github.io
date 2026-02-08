@@ -45,7 +45,7 @@ main {
     line-height: 1.3;
 }
 
-.projekttitel:has(+.closed):hover {
+.projekttitel:has(+.closed):hover::first-line {
     background-image: var(--img);
     background-size: 100% 100%;
     background-position: center;
