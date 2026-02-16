@@ -23,10 +23,12 @@ function openDesc(theid) {
        {transform:"scaleY(1)"}],
       {duration: 120})
   } else {
-    x.animate(
+    if !Error.isError(x.querySelector(".opened")){
+    x.querySelector(".opened").animate(
       [{transform:"scaleY(1)"},
        {transform:"scaleY(0)"}],
       {duration: 10}).onfinish= () => x.querySelector(".opened").classList.add("closed"); x.querySelector(".opened").classList.remove("opened");
+    }
     x.animate(
       [{transform:"scaleY(1)"},
        {transform:"scaleY(0)"}],
