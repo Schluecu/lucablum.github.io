@@ -23,7 +23,7 @@ function openDesc(theid) {
        {transform:"scaleY(1)"}],
       {duration: 120})
   } else {
-    if x.querySelector(".opened")!=null {
+    if (x.querySelector(".opened")!=null) {
     x.querySelectorAll(".opened").animate(
       [{transform:"scaleY(1)"},
        {transform:"scaleY(0)"}],
