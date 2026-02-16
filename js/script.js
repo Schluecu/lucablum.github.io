@@ -24,10 +24,10 @@ function openDesc(theid) {
       {duration: 120})
   } else {
     if !Error.isError(x.querySelector(".opened")){
-    x.querySelector(".opened").animate(
+    x.querySelectorAll(".opened").animate(
       [{transform:"scaleY(1)"},
        {transform:"scaleY(0)"}],
-      {duration: 10}).onfinish= () => x.querySelector(".opened").classList.add("closed"); x.querySelector(".opened").classList.remove("opened");
+      {duration: 10}).onfinish= () => x.querySelectorAll(".opened").classList.add("closed"); x.querySelectorAll(".opened").classList.remove("opened");
     }
     x.animate(
       [{transform:"scaleY(1)"},
