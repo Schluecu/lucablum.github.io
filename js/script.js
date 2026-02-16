@@ -24,11 +24,12 @@ function openDesc(theid) {
       {duration: 120})
   } else {
     if (x.querySelector(".opened")!=null) {
-    x.querySelectorAll(".opened").animate(
+    x.querySelectorAll(".opened").forEach(el => {el.animate(
       [{transform:"scaleY(1)"},
        {transform:"scaleY(0)"}],
-      {duration: 10}).onfinish= () => x.querySelectorAll(".opened").classList.add("closed"); x.querySelectorAll(".opened").classList.remove("opened");
-    }
+      {duration: 10}).onfinish= () => x.querySelectorAll(".opened").forEach(el => {el.classList.add("closed")}; x.querySelectorAll(".opened").forEach(el => {el.classList.remove("opened")};
+                                                }
+                                          }
     x.animate(
       [{transform:"scaleY(1)"},
        {transform:"scaleY(0)"}],
