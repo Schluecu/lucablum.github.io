@@ -26,7 +26,7 @@ function openDesc(theid) {
     x.animate(
       [{transform:"scaleY(1)"},
        {transform:"scaleY(0)"}],
-      {duration: 10}).onfinish= ()m=> "x.querySelector(".opened").classList.remove("opened"); x.querySelector(".opened").classList.add("closed");
+      {duration: 10}).onfinish= () => x.querySelector(".opened").classList.add("closed"); x.querySelector(".opened").classList.remove("opened");
     x.animate(
       [{transform:"scaleY(1)"},
        {transform:"scaleY(0)"}],
