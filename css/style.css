@@ -54,8 +54,8 @@ main {
     background-size: 100% 100%;
     background-position: center;
     color:white;
-    padding:3.5vmax;
-    margin:-3.5vmax;
+    padding:3vmax;
+    margin:-3vmax;
 }
 
 .desc {
@@ -150,7 +150,7 @@ q {
 @media only screen and (max-width: 800px) {
     .bignav {display:none;}
     .topnav {display:block;float:left;}
-    
+    body {margin-left:5vw;}
 }
 @media only screen and (min-width: 801px) {
     .bignav {display:block;float:left;}
