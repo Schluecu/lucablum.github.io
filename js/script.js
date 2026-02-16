@@ -15,27 +15,37 @@ function myFunction() {
 
 function openDesc(theid) {
   const x = document.getElementById(theid);
+  if (!x) return;
+
   if (x.classList.contains("closed")) {
     x.classList.remove("closed");
     x.classList.add("opened");
     x.animate(
-      [{transform:"scaleY(0)"},
-       {transform:"scaleY(1)"}],
-      {duration: 120})
+      [{ transform: "scaleY(0)" }, { transform: "scaleY(1)" }],
+      { duration: 120 }
+    );
   } else {
-    if (x.querySelector(".opened")!=null) {
-    x.querySelectorAll(".opened").forEach(el => {el.animate(
-      [{transform:"scaleY(1)"},
-       {transform:"scaleY(0)"}],
-      {duration: 10}).onfinish= () => x.querySelectorAll(".opened").forEach(el => {el.classList.add("closed")}; x.querySelectorAll(".opened").forEach(el => {el.classList.remove("opened")};
-                                                }
-                                          }
-    x.animate(
-      [{transform:"scaleY(1)"},
-       {transform:"scaleY(0)"}],
-      {duration: 120}
-    ).onfinish = () => x.classList.remove("opened"); x.classList.add("closed");
+    const openedChildren = x.querySelectorAll(".opened");
+    if (openedChildren.length > 0) {
+      openedChildren.forEach(child => {
+        child.animate(
+          [{ transform: "scaleY(1)" }, { transform: "scaleY(0)" }],
+          { duration: 10 }
+        ).onfinish = () => {
+          child.classList.remove("opened");
+          child.classList.add("closed");
+        };
+      });
     }
+
+    x.animate(
+      [{ transform: "scaleY(1)" }, { transform: "scaleY(0)" }],
+      { duration: 120 }
+    ).onfinish = () => {
+      x.classList.remove("opened");
+      x.classList.add("closed");
+    };
+  }
 }
 
 function openalt(theid) {
