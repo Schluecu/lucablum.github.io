@@ -24,6 +24,10 @@ body {
     @media (prefers-color-scheme: light) {*/background-color:white;color:black;/*}*/
 }
 
+.hover:hover {
+    cursor:pointer;
+}
+
 .references {
     background-color:white;
     color:black;
