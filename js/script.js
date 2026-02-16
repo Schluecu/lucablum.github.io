@@ -28,6 +28,7 @@ function openDesc(theid) {
        {transform:"scaleY(0)"}],
       {duration: 120}
     ).onfinish = () => x.classList.remove("opened"); x.classList.add("closed");
+    x.querySelector(".opened").classList.remove("opened"); x.querySelector(".opened").classList.add("closed");
   }
 }
 
