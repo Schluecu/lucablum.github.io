@@ -221,3 +221,18 @@ r {
 .meta:before {
     content:' ';
 }
+
+.productionimg {
+    display:none;
+    position:absolute;
+    left:10vw;
+    bottom:10vh;
+    width:50vw;
+    max-height:60vh;
+    object-fit:contain;
+    object-position:left bottom;
+}
+
+.production:hover + .productionimg {
+    display:block;
+}
