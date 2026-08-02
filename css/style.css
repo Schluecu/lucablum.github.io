@@ -224,7 +224,7 @@ r {
 
 .productionimg {
     display:none;
-    position:absolute;
+    position:fixed;
     left:10vw;
     bottom:10vh;
     width:50vw;
