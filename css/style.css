@@ -231,6 +231,7 @@ r {
     max-height:60vh;
     object-fit:contain;
     object-position:left bottom;
+    border-radius:1vw;
 }
 
 .production:hover + .productionimg {
