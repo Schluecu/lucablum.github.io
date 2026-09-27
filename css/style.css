@@ -1,23 +1,23 @@
 @font-face {
     font-family: "ABC Otto Variable Edu Regular";
     font-weight: 300;
-    src: url("/font/ABCOttoVariable.woff");
+    src: url("../font/ABCOttoVariable.woff");
 }
 
 @font-face {
     font-family: "ABC Otto Variable Edu Light Italic";
     font-weight: 300;
-    src: url("/font/ABCOttoItalicVariable.woff");
+    src: url("../font/ABCOttoItalicVariable.woff");
 }
 
 @font-face {
     font-family: "ABC Otto Variable Edu Medium Italic";
     font-weight: 600;
-    src: url("/font/ABCOttoItalicVariable.woff");
+    src: url("../font/ABCOttoItalicVariable.woff");
 }
 
 body {
-    -webkit-user-select: text;
+    user-select: text;
     font-family: serif;
     font-family: "ABC Otto Variable Edu Regular";
     /*@media (prefers-color-scheme: dark) {background-color:#333333;color:white;}
@@ -35,7 +35,7 @@ body {
 }
 
 nav {
-    -webkit-user-select: none;
+    user-select: none;
     /*@media (prefers-color-scheme: dark) {-webkit-text-stroke-color: white;}
     @media (prefers-color-scheme: light) {*/-webkit-text-stroke-color: black;/*}*/
     -webkit-text-stroke-width: calc(3.5vmax/50);
@@ -56,6 +56,15 @@ main {
     color:white;
     padding:3vmax;
     margin:-3vmax;
+}
+
+.hintergrund:hover{
+    background-image: var(--img);
+    background-size: 100% 100%;
+    background-position: center;
+    color:white;
+    padding:1.5vmax;
+    margin:-1.5vmax;
 }
 
 .desc {
@@ -82,8 +91,8 @@ main {
     cursor:pointer;
 }
 
-spalte {min-width:250px;max-width:1000px;width:20vw;float:left;margin-bottom:2vmax;padding-right:5vw;}
-.bildspalte {min-width:250px;width:35vw;}
+spalte {min-width:250px;max-width:1000px;width:20vw;float:left;margin-bottom:2vmax;padding-right:5vw;display:block}
+.bildspalte {min-width:250px;width:40vw;}
 .bildspaltesmall{min-width:250px;width:20vw;}
 
 textPath {
@@ -112,7 +121,7 @@ textPath {
 }
 
 #references {
-    -webkit-user-select:none;
+    user-select:none;
 }
 
 #references:after {
@@ -204,7 +213,7 @@ r {
 .selectSkill {
     margin-right:1vw;
     font-family:"ABC Otto Variable Edu Light Italic";
-    -webkit-user-select:none;
+    user-select:none;
 }
 
 .skill {
@@ -225,9 +234,9 @@ r {
 .productionimg {
     display:none;
     position:fixed;
-    left:10vw;
-    bottom:10vh;
-    width:50vw;
+    right:2vw;
+    bottom:5vh;
+    width:30vw;
     max-height:60vh;
     object-fit:contain;
     object-position:left bottom;
