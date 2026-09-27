@@ -28,6 +28,9 @@ body {
     cursor:pointer;
 }
 
+.diverses:has(+.opened)::after {content:" ↑"}
+.diverses:has(+.closed)::after {content:" ↓"}
+
 .references {
     background-color:white;
     color:black;
