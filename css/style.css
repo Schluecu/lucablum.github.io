@@ -238,12 +238,11 @@ r {
     display:none;
     position:fixed;
     right:2vw;
-    bottom:5vh;
-    width:30vw;
-    max-height:60vh;
+    bottom:50%;
+    transform:translate(0%, 50%);
+    width:25vw;
     object-fit:contain;
     object-position:left bottom;
-    border-radius:1vw;
 }
 
 .production:hover + .productionimg {
