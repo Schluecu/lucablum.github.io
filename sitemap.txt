@@ -3,7 +3,4 @@ https://lucablum.ch/html/info.html
 https://lucablum.ch/html/arbeiten.html
 https://lucablum.ch/html/kontakt.html
 https://lucablum.ch/en/index.html
-https://lucablum.ch/en/html/info.html
-https://lucablum.ch/en/html/work.html
-https://lucablum.ch/en/html/contact.html
 https://lucablum.ch/referenzrahmen/index.html
